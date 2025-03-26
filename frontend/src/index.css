@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* EQT branded scrollbar - more subtle */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 71, 22, 0.3);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(255, 71, 22, 0.5);
+}
+
+/* ChatGPT-style typing animation */
+.dot-typing {
+  position: relative;
+  left: -9999px;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background-color: #FF4716;
+  color: #FF4716;
+  box-shadow: 9984px 0 0 0 #FF4716, 9999px 0 0 0 #FF4716, 10014px 0 0 0 #FF4716;
+  animation: dot-typing 1.5s infinite linear;
+}
+
+@keyframes dot-typing {
+  0% {
+    box-shadow: 9984px 0 0 0 #FF4716, 9999px 0 0 0 #FF4716, 10014px 0 0 0 #FF4716;
+  }
+  16.667% {
+    box-shadow: 9984px -5px 0 0 #FF4716, 9999px 0 0 0 #FF4716, 10014px 0 0 0 #FF4716;
+  }
+  33.333% {
+    box-shadow: 9984px 0 0 0 #FF4716, 9999px 0 0 0 #FF4716, 10014px 0 0 0 #FF4716;
+  }
+  50% {
+    box-shadow: 9984px 0 0 0 #FF4716, 9999px -5px 0 0 #FF4716, 10014px 0 0 0 #FF4716;
+  }
+  66.667% {
+    box-shadow: 9984px 0 0 0 #FF4716, 9999px 0 0 0 #FF4716, 10014px 0 0 0 #FF4716;
+  }
+  83.333% {
+    box-shadow: 9984px 0 0 0 #FF4716, 9999px 0 0 0 #FF4716, 10014px -5px 0 0 #FF4716;
+  }
+  100% {
+    box-shadow: 9984px 0 0 0 #FF4716, 9999px 0 0 0 #FF4716, 10014px 0 0 0 #FF4716;
+  }
+}
