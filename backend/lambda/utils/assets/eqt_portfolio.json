@@ -1,0 +1,2822 @@
+[
+  {
+    "Company": "1X",
+    "Sector": "AI Robotics",
+    "Fund": "EQT Ventures III",
+    "Market": "Norway",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/1x",
+    "company_website": "https://www.1x.tech/"
+  },
+  {
+    "Company": "3Shape",
+    "Sector": "Healthcare",
+    "Fund": "EQT IX",
+    "Market": "Denmark",
+    "Entry": "2022",
+    "Link": "https://eqtgroup.com/about/current-portfolio/3shape",
+    "company_website": "https://www.3shape.com/"
+  },
+  {
+    "Company": "Acumatica",
+    "Sector": "Technology",
+    "Fund": "EQT VII",
+    "Market": "United States",
+    "Entry": "2019",
+    "Link": "https://eqtgroup.com/about/current-portfolio/acumatica",
+    "company_website": "https://www.acumatica.com/"
+  },
+  {
+    "Company": "Acuon Capital",
+    "Sector": "Services",
+    "Fund": "BPEA Private Equity Fund VII",
+    "Market": "Korea",
+    "Entry": "2019",
+    "Link": "https://eqtgroup.com/about/current-portfolio/acuon-capital",
+    "company_website": "https://www.acuoncapital.com/main.do"
+  },
+  {
+    "Company": "Agomab Therapeutics",
+    "Sector": "Life Sciences",
+    "Fund": "LSP 7",
+    "Market": "Belgium",
+    "Entry": "2023",
+    "Link": "https://eqtgroup.com/about/current-portfolio/agomab-therapeutics",
+    "company_website": "https://agomab.com/"
+  },
+  {
+    "Company": "AGS Health",
+    "Sector": "Healthcare",
+    "Fund": "BPEA Private Equity Fund VII",
+    "Market": "Southeast Asia",
+    "Entry": "2019",
+    "Link": "https://eqtgroup.com/about/current-portfolio/ags-health",
+    "company_website": "https://www.agshealth.com/"
+  },
+  {
+    "Company": "AIG Hospitals",
+    "Sector": "Healthcare",
+    "Fund": "BPEA Private Equity Fund VII",
+    "Market": "India",
+    "Entry": "2022",
+    "Link": "https://eqtgroup.com/about/current-portfolio/aig-hospitals",
+    "company_website": "https://aighospitals.com/"
+  },
+  {
+    "Company": "Aleris",
+    "Sector": "Healthcare",
+    "Fund": "EQT III",
+    "Market": "Sweden",
+    "Entry": "-",
+    "Link": "https://eqtgroup.com/about/current-portfolio/aleris"
+  },
+  {
+    "Company": "Aleris",
+    "Sector": "Healthcare",
+    "Fund": "EQT Exp Capital I",
+    "Market": "Sweden",
+    "Entry": "-",
+    "Link": "https://eqtgroup.com/about/current-portfolio/aleris"
+  },
+  {
+    "Company": "Allee Center",
+    "Sector": "Real Estate",
+    "Fund": "",
+    "Market": "Germany",
+    "Entry": "2018",
+    "Link": "https://eqtgroup.com/about/current-portfolio/allee-center",
+    "company_website": "https://www.allee-center-leipzig.de/"
+  },
+  {
+    "Company": "Am-Pharma",
+    "Sector": "Life Sciences",
+    "Fund": "LSP 6",
+    "Market": "Netherlands",
+    "Entry": "2019",
+    "Link": "https://eqtgroup.com/about/current-portfolio/am-pharma",
+    "company_website": "https://www.am-pharma.com/"
+  },
+  {
+    "Company": "AMCS",
+    "Sector": "Software",
+    "Fund": "EQT X",
+    "Market": "Ireland",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/amcs",
+    "company_website": "https://www.amcsgroup.com/"
+  },
+  {
+    "Company": "Anticimex",
+    "Sector": "Services",
+    "Fund": "EQT Future",
+    "Market": "Sweden",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/anticimex-future",
+    "company_website": "https://www.anticimex.com/"
+  },
+  {
+    "Company": "AnyDesk",
+    "Sector": "Remote Work",
+    "Fund": "EQT Ventures I",
+    "Market": "Germany",
+    "Entry": "2018",
+    "Link": "https://eqtgroup.com/about/current-portfolio/anydesk",
+    "company_website": "https://anydesk.com/"
+  },
+  {
+    "Company": "APAC HR Tech",
+    "Sector": "Technology",
+    "Fund": "BPEA Private Equity Fund VIII",
+    "Market": "Australia",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/apac-hr-tech",
+    "company_website": "https://www.1x.tech/"
+  },
+  {
+    "Company": "Ardoq",
+    "Sector": "Enterprise Tech",
+    "Fund": "EQT Growth",
+    "Market": "Norway",
+    "Entry": "2022",
+    "Link": "https://eqtgroup.com/about/current-portfolio/ardoq",
+    "company_website": "https://medium.com/eqt-growth/software-to-manage-transformation-for-the-digital-enterprise-eqt-growths-investment-in-ardoq-798509c87829"
+  },
+  {
+    "Company": "Argil",
+    "Sector": "Artificial Intelligence",
+    "Fund": "EQT Ventures III",
+    "Market": "France",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/argil"
+  },
+  {
+    "Company": "Ariceum Therapeutics",
+    "Sector": "Life Sciences",
+    "Fund": "LSP 7",
+    "Market": "Germany",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/ariceum-therapeutics",
+    "company_website": "https://ariceum-therapeutics.com/"
+  },
+  {
+    "Company": "Artios Pharma",
+    "Sector": "Life Sciences",
+    "Fund": "LSP 6",
+    "Market": "United Kingdom",
+    "Entry": "2018",
+    "Link": "https://eqtgroup.com/about/current-portfolio/artios-pharma"
+  },
+  {
+    "Company": "Asceneuron",
+    "Sector": "Healthcare",
+    "Fund": "LSP Dementia Fund",
+    "Market": "Switzerland",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/asceneuron",
+    "company_website": "https://asceneuron.com/"
+  },
+  {
+    "Company": "AstronautX",
+    "Sector": "Healthcare",
+    "Fund": "LSP Dementia Fund",
+    "Market": "United Kingdom",
+    "Entry": "2023",
+    "Link": "https://eqtgroup.com/about/current-portfolio/astronautx",
+    "company_website": "https://astronautx.bio/"
+  },
+  {
+    "Company": "Atalanta Therapeutics",
+    "Sector": "Life Sciences",
+    "Fund": "LSP Dementia Fund",
+    "Market": "United States",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/atalanta-therapeutics",
+    "company_website": "https://www.atalantatx.com/"
+  },
+  {
+    "Company": "ATB Therapeutics",
+    "Sector": "ATB Therapeutics",
+    "Fund": "LSP 7",
+    "Market": "Belgium",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/atb-therapeutics",
+    "company_website": "https://www.atbtherapeutics.com/"
+  },
+  {
+    "Company": "Atlantic Therapeutics",
+    "Sector": "Life Sciences",
+    "Fund": "LSP HEF 2",
+    "Market": "Ireland",
+    "Entry": "2018",
+    "Link": "https://eqtgroup.com/about/current-portfolio/atlantic-therapeutics",
+    "company_website": "https://www.myinnovo.com/"
+  },
+  {
+    "Company": "Atricom and Le B\u00fcro",
+    "Sector": "Consumer",
+    "Fund": "",
+    "Market": "Germany",
+    "Entry": "2017",
+    "Link": "https://eqtgroup.com/about/current-portfolio/atricom-and-le-buro"
+  },
+  {
+    "Company": "Avetta",
+    "Sector": "Technology",
+    "Fund": "EQT X",
+    "Market": "United States",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/avetta"
+  },
+  {
+    "Company": "AviadoBio",
+    "Sector": "Healthcare",
+    "Fund": "LSP Dementia Fund",
+    "Market": "United Kingdom",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/aviadobio",
+    "company_website": "https://aviadobio.com/"
+  },
+  {
+    "Company": "Avidicure",
+    "Sector": "Life Sciences",
+    "Fund": "LSP 7",
+    "Market": "Netherlands",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/avidicure"
+  },
+  {
+    "Company": "Azelis",
+    "Sector": "Services",
+    "Fund": "EQT VIII",
+    "Market": "Belgium",
+    "Entry": "2018",
+    "Link": "https://eqtgroup.com/about/current-portfolio/azelis",
+    "company_website": "https://www.azelis.com/en"
+  },
+  {
+    "Company": "Baller League",
+    "Sector": "Sport",
+    "Fund": "EQT Ventures III",
+    "Market": "Germany",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/baller-league",
+    "company_website": "https://ballerleague.de/"
+  },
+  {
+    "Company": "Banking Circle",
+    "Sector": "Technology",
+    "Fund": "EQT VIII",
+    "Market": "Luxembourg",
+    "Entry": "2018",
+    "Link": "https://eqtgroup.com/about/current-portfolio/banking-circle"
+  },
+  {
+    "Company": "Beamery",
+    "Sector": "HR Tech",
+    "Fund": "EQT Ventures I",
+    "Market": "United Kingdom",
+    "Entry": "2018",
+    "Link": "https://eqtgroup.com/about/current-portfolio/beamery",
+    "company_website": "https://beamery.com/"
+  },
+  {
+    "Company": "Beijer Ref",
+    "Sector": "Services",
+    "Fund": "EQT IX",
+    "Market": "Sweden",
+    "Entry": "2020",
+    "Link": "https://eqtgroup.com/about/current-portfolio/beijer-ref"
+  },
+  {
+    "Company": "Benesse",
+    "Sector": "Services",
+    "Fund": "BPEA Private Equity Fund VIII",
+    "Market": "Japan",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/benesse",
+    "company_website": "https://www.benesse-hd.co.jp/en/"
+  },
+  {
+    "Company": "Bespak",
+    "Sector": "Healthcare",
+    "Fund": "EQT IX",
+    "Market": "United Kingdom",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/bespak",
+    "company_website": "https://bespak.com/"
+  },
+  {
+    "Company": "Billhop",
+    "Sector": "Fintech",
+    "Fund": "EQT Ventures III",
+    "Market": "Sweden",
+    "Entry": "2022",
+    "Link": "https://eqtgroup.com/about/current-portfolio/billhop",
+    "company_website": "https://billhop.com/"
+  },
+  {
+    "Company": "Billtrust",
+    "Sector": "Technology",
+    "Fund": "EQT X",
+    "Market": "United States",
+    "Entry": "2022",
+    "Link": "https://eqtgroup.com/about/current-portfolio/billtrust",
+    "company_website": "https://www.billtrust.com/"
+  },
+  {
+    "Company": "BIM Object",
+    "Sector": "Construction Tech",
+    "Fund": "EQT Ventures I",
+    "Market": "Sweden",
+    "Entry": "2018",
+    "Link": "https://eqtgroup.com/about/current-portfolio/bim-object",
+    "company_website": "https://www.bimobject.com/"
+  },
+  {
+    "Company": "Binx Health",
+    "Sector": "Life Sciences",
+    "Fund": "LSP 4",
+    "Market": "United Kingdom",
+    "Entry": "2011",
+    "Link": "https://eqtgroup.com/about/current-portfolio/binx-health",
+    "company_website": "https://mybinxhealth.com/"
+  },
+  {
+    "Company": "Binx Health",
+    "Sector": "Life Sciences",
+    "Fund": "LSP 6",
+    "Market": "United Kingdom",
+    "Entry": "2016",
+    "Link": "https://eqtgroup.com/about/current-portfolio/binx-health-lsp-6",
+    "company_website": "https://mybinxhealth.com/"
+  },
+  {
+    "Company": "Biolevate",
+    "Sector": "Artificial Intelligence",
+    "Fund": "EQT Ventures III",
+    "Market": "France",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/biolevate",
+    "company_website": "https://www.biolevate.com/"
+  },
+  {
+    "Company": "BLOOM Fresh International",
+    "Sector": "Food Technology",
+    "Fund": "EQT Future",
+    "Market": "United Kingdom",
+    "Entry": "2023",
+    "Link": "https://eqtgroup.com/about/current-portfolio/bloom-fresh-international",
+    "company_website": "https://bloomfreshglobal.com/"
+  },
+  {
+    "Company": "Bluebook",
+    "Sector": "Fintech",
+    "Fund": "EQT Ventures III",
+    "Market": "Sweden",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/bluebook",
+    "company_website": "https://getbluebook.com/"
+  },
+  {
+    "Company": "Campus",
+    "Sector": "Real Estate",
+    "Fund": "",
+    "Market": "Spain",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/campus",
+    "company_website": "https://nodis.es/en/home-nodis-student-residences/"
+  },
+  {
+    "Company": "Candela",
+    "Sector": "Sustainability",
+    "Fund": "EQT Ventures III",
+    "Market": "Sweden",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/candela",
+    "company_website": "https://candela.com/"
+  },
+  {
+    "Company": "Cardiac Dimensions",
+    "Sector": "Life Sciences",
+    "Fund": "LSP HEF 1",
+    "Market": "United States",
+    "Entry": "2015",
+    "Link": "https://eqtgroup.com/about/current-portfolio/cardiac-dimensions",
+    "company_website": "https://cardiacdimensions.com/"
+  },
+  {
+    "Company": "Cast & Crew",
+    "Sector": "Services",
+    "Fund": "EQT VIII",
+    "Market": "United States",
+    "Entry": "2018",
+    "Link": "https://eqtgroup.com/about/current-portfolio/cast-and-crew",
+    "company_website": "https://www.castandcrew.com/"
+  },
+  {
+    "Company": "Cerba Healthcare",
+    "Sector": "Healthcare",
+    "Fund": "EQT IX",
+    "Market": "France",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/cerba-healthcare",
+    "company_website": "https://www.cerbahealthcare.com/en"
+  },
+  {
+    "Company": "CFC",
+    "Sector": "Services",
+    "Fund": "EQT IX",
+    "Market": "United Kingdom",
+    "Entry": "2022",
+    "Link": "https://eqtgroup.com/about/current-portfolio/cfc",
+    "company_website": "https://www.cfc.com/en-gb/"
+  },
+  {
+    "Company": "China Shine",
+    "Sector": "Services",
+    "Fund": "",
+    "Market": "Greater China",
+    "Entry": "2019",
+    "Link": "https://eqtgroup.com/about/current-portfolio/china-shine"
+  },
+  {
+    "Company": "Cirba Solutions",
+    "Sector": "Environmental",
+    "Fund": "EQT Infrastructure V",
+    "Market": "United States",
+    "Entry": "-",
+    "Link": "https://eqtgroup.com/about/current-portfolio/cirba-solutions"
+  },
+  {
+    "Company": "Citius Tech",
+    "Sector": "Technology Services",
+    "Fund": "BPEA Private Equity Fund VII",
+    "Market": "India",
+    "Entry": "2019",
+    "Link": "https://eqtgroup.com/about/current-portfolio/citius-tech",
+    "company_website": "https://www.citiustech.com/"
+  },
+  {
+    "Company": "Cleo",
+    "Sector": "Fintech",
+    "Fund": "EQT Ventures II",
+    "Market": "United Kingdom",
+    "Entry": "2020",
+    "Link": "https://eqtgroup.com/about/current-portfolio/cleo",
+    "company_website": "https://www.meetcleo.com/"
+  },
+  {
+    "Company": "CluePoints",
+    "Sector": "Health Tech",
+    "Fund": "EQT Growth",
+    "Market": "Belgium",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/cluepoints",
+    "company_website": "https://cluepoints.com/"
+  },
+  {
+    "Company": "Codemao",
+    "Sector": "Services",
+    "Fund": "BPEA Private Equity Fund VII",
+    "Market": "Greater China",
+    "Entry": "2020",
+    "Link": "https://eqtgroup.com/about/current-portfolio/codemao",
+    "company_website": "https://www.codemao.cn/"
+  },
+  {
+    "Company": "Colisee",
+    "Sector": "Social",
+    "Fund": "EQT Infrastructure V",
+    "Market": "France",
+    "Entry": "2020",
+    "Link": "https://eqtgroup.com/about/current-portfolio/colisee",
+    "company_website": "https://www.colisee-group.com/"
+  },
+  {
+    "Company": "Colossi Games",
+    "Sector": "Mobile Gaming",
+    "Fund": "EQT Ventures II",
+    "Market": "Cyprus",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/colossi-games",
+    "company_website": "https://www.colossi.games/"
+  },
+  {
+    "Company": "Compass Education",
+    "Sector": "Technology Services",
+    "Fund": "BPEA EQT Mid-Market Growth",
+    "Market": "Australia",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/compass-education",
+    "company_website": "https://www.compass.education/"
+  },
+  {
+    "Company": "Concept",
+    "Sector": "Real Estate",
+    "Fund": "",
+    "Market": "France",
+    "Entry": "2018",
+    "Link": "https://eqtgroup.com/about/current-portfolio/concept",
+    "company_website": "https://www.concept-paris.fr/"
+  },
+  {
+    "Company": "Constellation Cold Logistics",
+    "Sector": "Services",
+    "Fund": "",
+    "Market": "United Kingdom",
+    "Entry": "-",
+    "Link": "https://eqtgroup.com/about/current-portfolio/constellation-cold-logistics"
+  },
+  {
+    "Company": "Credila Financial Services",
+    "Sector": "Services",
+    "Fund": "BPEA Private Equity Fund VIII",
+    "Market": "India",
+    "Entry": "2023",
+    "Link": "https://eqtgroup.com/about/current-portfolio/hdfc-credila",
+    "company_website": "https://www.hdfccredila.com/"
+  },
+  {
+    "Company": "Cue",
+    "Sector": "Technology",
+    "Fund": "BPEA Private Equity Fund VII",
+    "Market": "Greater China",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/cue",
+    "company_website": "https://cue.group/en/"
+  },
+  {
+    "Company": "CYE",
+    "Sector": "Technology",
+    "Fund": "EQT Mid Market Europe",
+    "Market": "Israel",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/cye"
+  },
+  {
+    "Company": "Cypress Creek",
+    "Sector": "Energy & Environmental",
+    "Fund": "EQT Infrastructure V",
+    "Market": "United States",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/cypress-creek"
+  },
+  {
+    "Company": "Cytora",
+    "Sector": "Insurtech",
+    "Fund": "EQT Ventures I",
+    "Market": "United Kingdom",
+    "Entry": "2019",
+    "Link": "https://eqtgroup.com/about/current-portfolio/cytora",
+    "company_website": "https://cytora.com/"
+  },
+  {
+    "Company": "Dechra Pharmaceuticals",
+    "Sector": "Healthcare",
+    "Fund": "EQT X",
+    "Market": "United Kingdom",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/dechra-pharmaceuticals",
+    "company_website": "https://www.dechra.com/"
+  },
+  {
+    "Company": "Dellner Couplers",
+    "Sector": "Industrial Technology",
+    "Fund": "EQT VIII",
+    "Market": "Sweden",
+    "Entry": "2019",
+    "Link": "https://eqtgroup.com/about/current-portfolio/dellner-couplers",
+    "company_website": "https://www.dellner.com/"
+  },
+  {
+    "Company": "DELTA Fiber",
+    "Sector": "Digital",
+    "Fund": "EQT Infrastructure III",
+    "Market": "Netherlands",
+    "Entry": "2022",
+    "Link": "https://eqtgroup.com/about/current-portfolio/delta-fiber",
+    "company_website": "https://www.deltafiber.nl/"
+  },
+  {
+    "Company": "Deutsche Glasfaser",
+    "Sector": "Digital",
+    "Fund": "EQT Infrastructure IV",
+    "Market": "Germany",
+    "Entry": "2020",
+    "Link": "https://eqtgroup.com/about/current-portfolio/deutsche-glasfaser",
+    "company_website": "https://www.deutsche-glasfaser.de/"
+  },
+  {
+    "Company": "Deutsche Glasfaser",
+    "Sector": "Digital",
+    "Fund": "EQT Infrastructure V",
+    "Market": "Germany",
+    "Entry": "2020",
+    "Link": "https://eqtgroup.com/about/current-portfolio/deutsche-glasfaser",
+    "company_website": "https://www.deutsche-glasfaser.de/"
+  },
+  {
+    "Company": "DNA Script",
+    "Sector": "Life Sciences",
+    "Fund": "LSP 6",
+    "Market": "France",
+    "Entry": "2019",
+    "Link": "https://eqtgroup.com/about/current-portfolio/dna-script",
+    "company_website": "https://www.dnascript.com/"
+  },
+  {
+    "Company": "DOTS Technology",
+    "Sector": "Life Sciences",
+    "Fund": "LSP HEF 2",
+    "Market": "United States",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/dots-technology",
+    "company_website": "https://www.dotscorp.com/lander"
+  },
+  {
+    "Company": "dottxt",
+    "Sector": "Artificial Intelligence",
+    "Fund": "EQT Ventures III",
+    "Market": "France",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/dottxt"
+  },
+  {
+    "Company": "EC-Council",
+    "Sector": "Services",
+    "Fund": "",
+    "Market": "Singapore",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/ec-council",
+    "company_website": "https://www.eccouncil.org/"
+  },
+  {
+    "Company": "ecoplanet",
+    "Sector": "Climate",
+    "Fund": "EQT Ventures III",
+    "Market": "Germany",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/ecoplanet",
+    "company_website": "http://www.ecoplanet.tech/"
+  },
+  {
+    "Company": "EdgeConneX",
+    "Sector": "Digital",
+    "Fund": "EQT Infrastructure IV",
+    "Market": "United States",
+    "Entry": "2019",
+    "Link": "https://eqtgroup.com/about/current-portfolio/edgeconnex",
+    "company_website": "https://www.edgeconnex.com/"
+  },
+  {
+    "Company": "EdgeConneX",
+    "Sector": "Digital",
+    "Fund": "EQT Infrastructure V",
+    "Market": "United States",
+    "Entry": "2020",
+    "Link": "https://eqtgroup.com/about/current-portfolio/edgeconnex-infra-v",
+    "company_website": "https://www.edgeconnex.com/"
+  },
+  {
+    "Company": "Egle Therapeutics",
+    "Sector": "Life Sciences",
+    "Fund": "LSP 7",
+    "Market": "France",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/egle-therapeutics",
+    "company_website": "https://egle-tx.com/"
+  },
+  {
+    "Company": "Einride",
+    "Sector": "Sustainable Transport",
+    "Fund": "EQT Ventures II",
+    "Market": "Sweden",
+    "Entry": "2019",
+    "Link": "https://eqtgroup.com/about/current-portfolio/einride",
+    "company_website": "https://www.einride.tech/"
+  },
+  {
+    "Company": "Eloxx Pharma",
+    "Sector": "Life Sciences",
+    "Fund": "LSP 5",
+    "Market": "United States",
+    "Entry": "2017",
+    "Link": "https://eqtgroup.com/about/current-portfolio/eloxx-pharma",
+    "company_website": "https://www.eloxxpharma.com/"
+  },
+  {
+    "Company": "Encyclis",
+    "Sector": "Energy & Environmental",
+    "Fund": "EQT Infrastructure V",
+    "Market": "UK & Irland",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/encyclis",
+    "company_website": "https://www.encyclis.com/"
+  },
+  {
+    "Company": "Endgame",
+    "Sector": "Technology",
+    "Fund": "EQT Ventures III",
+    "Market": "United States",
+    "Entry": "2022",
+    "Link": "https://eqtgroup.com/about/current-portfolio/endgame",
+    "company_website": "https://www.endgame.io/"
+  },
+  {
+    "Company": "Enity Group",
+    "Sector": "Services",
+    "Fund": "EQT VII",
+    "Market": "Sweden",
+    "Entry": "2017",
+    "Link": "https://eqtgroup.com/about/current-portfolio/enity-group",
+    "company_website": "https://www.enity.com/"
+  },
+  {
+    "Company": "Envirotainer",
+    "Sector": "Healthcare",
+    "Fund": "EQT X",
+    "Market": "Sweden",
+    "Entry": "2022",
+    "Link": "https://eqtgroup.com/about/current-portfolio/envirotainer",
+    "company_website": "https://www.envirotainer.com/"
+  },
+  {
+    "Company": "Epidemic Sound",
+    "Sector": "Technology",
+    "Fund": "EQT Growth",
+    "Market": "Sweden",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/epidemic-sound",
+    "company_website": "https://www.epidemicsound.com/"
+  },
+  {
+    "Company": "eTheRNA",
+    "Sector": "Life Sciences",
+    "Fund": "LSP 5",
+    "Market": "Belgium",
+    "Entry": "2016",
+    "Link": "https://eqtgroup.com/about/current-portfolio/etherna",
+    "company_website": "https://www.etherna.be/"
+  },
+  {
+    "Company": "Eton",
+    "Sector": "Consumer Goods",
+    "Fund": "EQT VII",
+    "Market": "Sweden",
+    "Entry": "2016",
+    "Link": "https://eqtgroup.com/about/current-portfolio/eton",
+    "company_website": "https://www.etonshirts.com/se/sv"
+  },
+  {
+    "Company": "Euclid",
+    "Sector": "Healthcare",
+    "Fund": "BPEA Private Equity Fund VII",
+    "Market": "Greater China",
+    "Entry": "2022",
+    "Link": "https://eqtgroup.com/about/current-portfolio/euclid",
+    "company_website": "https://euclidlenses.com/"
+  },
+  {
+    "Company": "Evidia",
+    "Sector": "Social",
+    "Fund": "EQT Infrastructure V",
+    "Market": "Germany & Scandinavia",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/evidia"
+  },
+  {
+    "Company": "Evommune",
+    "Sector": "Life Sciences",
+    "Fund": "LSP 7",
+    "Market": "United States",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/evommune",
+    "company_website": "https://www.evommune.com/"
+  },
+  {
+    "Company": "evroc",
+    "Sector": "Cloud Computing",
+    "Fund": "EQT Ventures III",
+    "Market": "Sweden",
+    "Entry": "2023",
+    "Link": "https://eqtgroup.com/about/current-portfolio/evroc",
+    "company_website": "https://evroc.com/"
+  },
+  {
+    "Company": "Eyesense",
+    "Sector": "Life Sciences",
+    "Fund": "LSP 3",
+    "Market": "Switzerland",
+    "Entry": "2006",
+    "Link": "https://eqtgroup.com/about/current-portfolio/eyesense",
+    "company_website": "https://eyesense.com/"
+  },
+  {
+    "Company": "First Student",
+    "Sector": "Transport & Logistics",
+    "Fund": "EQT Infrastructure V",
+    "Market": "United States",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/first-student",
+    "company_website": "https://firststudentinc.com/"
+  },
+  {
+    "Company": "Flix",
+    "Sector": "Tech-enabled Services",
+    "Fund": "EQT Future",
+    "Market": "Germany",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/flix",
+    "company_website": "https://corporate.flix.com/"
+  },
+  {
+    "Company": "Flow Engineering",
+    "Sector": "Software Development",
+    "Fund": "EQT Ventures II",
+    "Market": "United Kingdom",
+    "Entry": "2022",
+    "Link": "https://eqtgroup.com/about/current-portfolio/flow-engineering",
+    "company_website": "https://flowengineering.com/"
+  },
+  {
+    "Company": "Formo",
+    "Sector": "-",
+    "Fund": "EQT Ventures III",
+    "Market": "Germany",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/formo",
+    "company_website": "https://formo.bio/"
+  },
+  {
+    "Company": "FoRx Therapeutics",
+    "Sector": "Life Sciences",
+    "Fund": "LSP 6",
+    "Market": "Switzerland",
+    "Entry": "2019",
+    "Link": "https://eqtgroup.com/about/current-portfolio/forx-therapeutics",
+    "company_website": "https://www.forxtherapeutics.com/"
+  },
+  {
+    "Company": "Freepik",
+    "Sector": "Technology",
+    "Fund": "EQT Mid Market Europe",
+    "Market": "Spain",
+    "Entry": "2020",
+    "Link": "https://eqtgroup.com/about/current-portfolio/freepik",
+    "company_website": "https://www.freepik.com/"
+  },
+  {
+    "Company": "Frontify",
+    "Sector": "Marketing",
+    "Fund": "EQT Ventures II",
+    "Market": "Switzerland",
+    "Entry": "2020",
+    "Link": "https://eqtgroup.com/about/current-portfolio/frontify",
+    "company_website": "https://www.frontify.com/"
+  },
+  {
+    "Company": "Fundamental VR",
+    "Sector": "Life Sciences",
+    "Fund": "LSP HEF 2",
+    "Market": "United Kingdom",
+    "Entry": "2022",
+    "Link": "https://eqtgroup.com/about/current-portfolio/fundamental-vr",
+    "company_website": "https://fundamentalsurgery.com/"
+  },
+  {
+    "Company": "Galderma",
+    "Sector": "Healthcare",
+    "Fund": "EQT VIII",
+    "Market": "Switzerland",
+    "Entry": "2019",
+    "Link": "https://eqtgroup.com/about/current-portfolio/galderma",
+    "company_website": "https://www.galderma.com/"
+  },
+  {
+    "Company": "GeBBS Healthcare Solutions",
+    "Sector": "Services",
+    "Fund": "BPEA Private Equity Fund VIII",
+    "Market": "India",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/gebbs-healthcare-solutions",
+    "company_website": "https://gebbs.com/"
+  },
+  {
+    "Company": "Generative Engineering",
+    "Sector": "Engineering Services",
+    "Fund": "EQT Ventures III",
+    "Market": "United Kingdom",
+    "Entry": "2023",
+    "Link": "https://eqtgroup.com/about/current-portfolio/generative-engineering",
+    "company_website": "https://generative.vision/"
+  },
+  {
+    "Company": "Ginko",
+    "Sector": "Services",
+    "Fund": "BPEA Private Equity Fund VII",
+    "Market": "Greater China",
+    "Entry": "2022",
+    "Link": "https://eqtgroup.com/about/current-portfolio/ginko"
+  },
+  {
+    "Company": "GlobalConnect",
+    "Sector": "Digital",
+    "Fund": "EQT Infrastructure IV",
+    "Market": "Sweden",
+    "Entry": "2019",
+    "Link": "https://eqtgroup.com/about/current-portfolio/globalconnect-infra-iv",
+    "company_website": "https://globalconnect.se/"
+  },
+  {
+    "Company": "GlobalConnect",
+    "Sector": "Digital",
+    "Fund": "EQT Infrastructure III",
+    "Market": "Sweden",
+    "Entry": "2017",
+    "Link": "https://eqtgroup.com/about/current-portfolio/globalconnect",
+    "company_website": "https://globalconnect.se/"
+  },
+  {
+    "Company": "GotPhoto",
+    "Sector": "Consumer",
+    "Fund": "EQT Growth",
+    "Market": "Germany",
+    "Entry": "2023",
+    "Link": "https://eqtgroup.com/about/current-portfolio/gotphoto",
+    "company_website": "https://www.gotphoto.com/"
+  },
+  {
+    "Company": "Griffin",
+    "Sector": "Fintech",
+    "Fund": "EQT Ventures II",
+    "Market": "United Kingdom",
+    "Entry": "2020",
+    "Link": "https://eqtgroup.com/about/current-portfolio/griffin",
+    "company_website": "https://griffin.sh/"
+  },
+  {
+    "Company": "Guardian Shanghai Hygiene Service Ltd.",
+    "Sector": "Services",
+    "Fund": "",
+    "Market": "Greater China",
+    "Entry": "2022",
+    "Link": "https://eqtgroup.com/about/current-portfolio/guardian-shanghai-hygiene-service-ltd",
+    "company_website": "https://www.guardian-hygiene.com/"
+  },
+  {
+    "Company": "Hantverksdata",
+    "Sector": "Technology",
+    "Fund": "EQT X",
+    "Market": "Sweden",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/hantverksdata",
+    "company_website": "https://www.hantverksdata.se/"
+  },
+  {
+    "Company": "Heritage Environmental Services",
+    "Sector": "Environmental",
+    "Fund": "",
+    "Market": "United States",
+    "Entry": "2023",
+    "Link": "https://eqtgroup.com/about/current-portfolio/heritage-environmental-services"
+  },
+  {
+    "Company": "Hiber",
+    "Sector": "Mobile Gaming",
+    "Fund": "EQT Ventures II",
+    "Market": "Sweden",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/hiber",
+    "company_website": "https://hiberworld.com/"
+  },
+  {
+    "Company": "HMI Group",
+    "Sector": "Healthcare",
+    "Fund": "",
+    "Market": "Singapore",
+    "Entry": "2019",
+    "Link": "https://eqtgroup.com/about/current-portfolio/hmi-group"
+  },
+  {
+    "Company": "Holidu",
+    "Sector": "Travel & Leisure",
+    "Fund": "EQT Ventures I",
+    "Market": "Germany",
+    "Entry": "2015",
+    "Link": "https://eqtgroup.com/about/current-portfolio/holidu",
+    "company_website": "https://www.holidu.com/"
+  },
+  {
+    "Company": "Horizon Robotics",
+    "Sector": "Industrial Technology",
+    "Fund": "BPEA Private Equity Fund VII",
+    "Market": "Greater China",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/horizon-robotics",
+    "company_website": "https://www.horizon.auto/"
+  },
+  {
+    "Company": "HotSpot Therapeutics",
+    "Sector": "Life Sciences",
+    "Fund": "LSP 7",
+    "Market": "United States",
+    "Entry": "-",
+    "Link": "https://eqtgroup.com/about/current-portfolio/hotspot-therapeutics",
+    "company_website": "https://www.hotspotthera.com/"
+  },
+  {
+    "Company": "HR Brain",
+    "Sector": "Technology",
+    "Fund": "BPEA EQT Mid-Market Growth",
+    "Market": "Japan",
+    "Entry": "2023",
+    "Link": "https://eqtgroup.com/about/current-portfolio/hr-brain",
+    "company_website": "https://www.hrbrain.co.jp/"
+  },
+  {
+    "Company": "Hume.AI",
+    "Sector": "Artificial Intelligence",
+    "Fund": "EQT Ventures III",
+    "Market": "United States",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/humeai",
+    "company_website": "https://www.hume.ai/"
+  },
+  {
+    "Company": "Hutchmed",
+    "Sector": "Healthcare",
+    "Fund": "BPEA Private Equity Fund VII",
+    "Market": "Greater China",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/hutchmed",
+    "company_website": "https://www.hutch-med.com/"
+  },
+  {
+    "Company": "Icon Group",
+    "Sector": "Social",
+    "Fund": "EQT Infrastructure V",
+    "Market": "Australia",
+    "Entry": "2022",
+    "Link": "https://eqtgroup.com/about/current-portfolio/icon-group",
+    "company_website": "https://icongroup.global/en/"
+  },
+  {
+    "Company": "Idealista",
+    "Sector": "Technology",
+    "Fund": "EQT IX",
+    "Market": "Spain",
+    "Entry": "2020",
+    "Link": "https://eqtgroup.com/about/current-portfolio/idealista",
+    "company_website": "https://www.idealista.com/"
+  },
+  {
+    "Company": "IFS",
+    "Sector": "Technology",
+    "Fund": "EQT IX",
+    "Market": "Sweden",
+    "Entry": "2020",
+    "Link": "https://eqtgroup.com/about/current-portfolio/ifs",
+    "company_website": "https://www.ifs.com/"
+  },
+  {
+    "Company": "IGT Solutions",
+    "Sector": "Technology Services",
+    "Fund": "BPEA Private Equity Fund VIII",
+    "Market": "India",
+    "Entry": "2022",
+    "Link": "https://eqtgroup.com/about/current-portfolio/igt-solutions",
+    "company_website": "https://www.igtsolutions.com/"
+  },
+  {
+    "Company": "ILA Vietnam",
+    "Sector": "Services",
+    "Fund": "",
+    "Market": "Vietnam",
+    "Entry": "2017",
+    "Link": "https://eqtgroup.com/about/current-portfolio/ila-vietnam",
+    "company_website": "https://teachingenglish.ila.edu.vn/"
+  },
+  {
+    "Company": "Illuminoss",
+    "Sector": "Life Sciences",
+    "Fund": "LSP HEF 1",
+    "Market": "United States",
+    "Entry": "2012",
+    "Link": "https://eqtgroup.com/about/current-portfolio/illuminoss",
+    "company_website": "https://illuminoss.com/"
+  },
+  {
+    "Company": "ImCheck",
+    "Sector": "Life Sciences",
+    "Fund": "LSP 5",
+    "Market": "France",
+    "Entry": "2017",
+    "Link": "https://eqtgroup.com/about/current-portfolio/imcheck",
+    "company_website": "https://www.imchecktherapeutics.com/"
+  },
+  {
+    "Company": "Imcyse",
+    "Sector": "Life Sciences",
+    "Fund": "LSP 6",
+    "Market": "Belgium",
+    "Entry": "2019",
+    "Link": "https://eqtgroup.com/about/current-portfolio/imcyse",
+    "company_website": "https://www.imcyse.com/"
+  },
+  {
+    "Company": "IMG Academy",
+    "Sector": "Services",
+    "Fund": "BPEA Private Equity Fund VIII",
+    "Market": "Cross Border",
+    "Entry": "2023",
+    "Link": "https://eqtgroup.com/about/current-portfolio/img-academy",
+    "company_website": "https://www.imgacademy.com/"
+  },
+  {
+    "Company": "Immunic",
+    "Sector": "Life Sciences",
+    "Fund": "LSP 5",
+    "Market": "Germany",
+    "Entry": "2016",
+    "Link": "https://eqtgroup.com/about/current-portfolio/immunic",
+    "company_website": "https://imux.com/"
+  },
+  {
+    "Company": "Indesso",
+    "Sector": "Industrial Technology",
+    "Fund": "",
+    "Market": "Indonesia",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/indesso",
+    "company_website": "https://www.indesso.com/"
+  },
+  {
+    "Company": "Indira IVF",
+    "Sector": "Healthcare",
+    "Fund": "BPEA Private Equity Fund VIII",
+    "Market": "India",
+    "Entry": "2023",
+    "Link": "https://eqtgroup.com/about/current-portfolio/indira-ivf",
+    "company_website": "https://www.indiraivf.com/"
+  },
+  {
+    "Company": "Indium Software",
+    "Sector": "Technology Services",
+    "Fund": "BPEA EQT Mid-Market Growth",
+    "Market": "India",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/indium-software",
+    "company_website": "https://www.indiumsoftware.com/"
+  },
+  {
+    "Company": "Innovative Molecules",
+    "Sector": "Life Sciences",
+    "Fund": "LSP 6",
+    "Market": "Germany",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/innovative-molecules"
+  },
+  {
+    "Company": "Insempra",
+    "Sector": "Biotech",
+    "Fund": "EQT Ventures II",
+    "Market": "Germany",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/insempra",
+    "company_website": "https://insempra.bio/"
+  },
+  {
+    "Company": "InstaVolt",
+    "Sector": "Energy & Environmental",
+    "Fund": "EQT Infrastructure V",
+    "Market": "United Kingdom",
+    "Entry": "2022",
+    "Link": "https://eqtgroup.com/about/current-portfolio/instavolt",
+    "company_website": "https://instavolt.co.uk/"
+  },
+  {
+    "Company": "IntegrityNext",
+    "Sector": "Climate",
+    "Fund": "EQT Growth",
+    "Market": "Germany",
+    "Entry": "2023",
+    "Link": "https://eqtgroup.com/about/current-portfolio/integritynext",
+    "company_website": "https://www.integritynext.com/"
+  },
+  {
+    "Company": "IO light Holdings",
+    "Sector": "Life Sciences",
+    "Fund": "LSP HEF 1",
+    "Market": "United States",
+    "Entry": "2012",
+    "Link": "https://eqtgroup.com/about/current-portfolio/io-light-holdings"
+  },
+  {
+    "Company": "iStar Medical",
+    "Sector": "Life Sciences",
+    "Fund": "LSP HEF 2",
+    "Market": "Belgium",
+    "Entry": "2019",
+    "Link": "https://eqtgroup.com/about/current-portfolio/istar-medical",
+    "company_website": "https://www.istar-medical.com/"
+  },
+  {
+    "Company": "IVC Evidensia",
+    "Sector": "Healthcare",
+    "Fund": "EQT VII",
+    "Market": "United Kingdom",
+    "Entry": "2017",
+    "Link": "https://eqtgroup.com/about/current-portfolio/ivc-evidensia"
+  },
+  {
+    "Company": "IVC Evidensia",
+    "Sector": "Healthcare",
+    "Fund": "EQT IX",
+    "Market": "United Kingdom",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/ivc-evidensia-eqt-ix"
+  },
+  {
+    "Company": "JD Health",
+    "Sector": "Technology",
+    "Fund": "BPEA Private Equity Fund VII",
+    "Market": "Greater China",
+    "Entry": "2019",
+    "Link": "https://eqtgroup.com/about/current-portfolio/jd-health",
+    "company_website": "https://global.jd.com/"
+  },
+  {
+    "Company": "Juni",
+    "Sector": "Fintech",
+    "Fund": "EQT Ventures III",
+    "Market": "Sweden",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/juni",
+    "company_website": "https://www.juni.co/"
+  },
+  {
+    "Company": "Kabel Baden-W\u00fcrttemberg",
+    "Sector": "TMT",
+    "Fund": "EQT IV",
+    "Market": "Germany",
+    "Entry": "-",
+    "Link": "https://eqtgroup.com/about/current-portfolio/kabel-baden-wurttemberg"
+  },
+  {
+    "Company": "Kabel Baden-W\u00fcrttemberg",
+    "Sector": "TMT",
+    "Fund": "EQT V",
+    "Market": "Germany",
+    "Entry": "-",
+    "Link": "https://eqtgroup.com/about/current-portfolio/kabel-baden-wurttemberg"
+  },
+  {
+    "Company": "Kaiber",
+    "Sector": "Artificial Intelligence",
+    "Fund": "EQT Ventures III",
+    "Market": "United States",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/kaiber",
+    "company_website": "https://kaiber.ai/"
+  },
+  {
+    "Company": "Karo Healthcare",
+    "Sector": "Healthcare",
+    "Fund": "EQT VIII",
+    "Market": "Sweden",
+    "Entry": "2019",
+    "Link": "https://eqtgroup.com/about/current-portfolio/karo-healthcare"
+  },
+  {
+    "Company": "Keyword Studios",
+    "Sector": "Technology",
+    "Fund": "BPEA Private Equity Fund VIII",
+    "Market": "Southeast Asia",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/keyword-studios",
+    "company_website": "https://www.keywordsstudios.com/"
+  },
+  {
+    "Company": "Kitemaker",
+    "Sector": "Software Development",
+    "Fund": "EQT Ventures II",
+    "Market": "Norway",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/kitemaker",
+    "company_website": "https://kitemaker.co/"
+  },
+  {
+    "Company": "Kive",
+    "Sector": "Media Tech",
+    "Fund": "EQT Ventures II",
+    "Market": "Sweden",
+    "Entry": "2020",
+    "Link": "https://eqtgroup.com/about/current-portfolio/kive",
+    "company_website": "https://kive.ai/"
+  },
+  {
+    "Company": "Kodiak Gas Services",
+    "Sector": "Energy & Environmental",
+    "Fund": "EQT Infrastructure III",
+    "Market": "United States",
+    "Entry": "2019",
+    "Link": "https://eqtgroup.com/about/current-portfolio/kodiak-gas-services",
+    "company_website": "https://kodiakgas.com/"
+  },
+  {
+    "Company": "Kodiak Gas Services",
+    "Sector": "Energy & Environmental",
+    "Fund": "EQT Infrastructure IV",
+    "Market": "United States",
+    "Entry": "2019",
+    "Link": "https://eqtgroup.com/about/current-portfolio/kodiak-gas-services",
+    "company_website": "https://kodiakgas.com/"
+  },
+  {
+    "Company": "Kota",
+    "Sector": "Fintech",
+    "Fund": "EQT Ventures III",
+    "Market": "Ireland",
+    "Entry": "2023",
+    "Link": "https://eqtgroup.com/about/current-portfolio/kota",
+    "company_website": "https://www.kota.io/"
+  },
+  {
+    "Company": "Kuoni Group / VFS Global",
+    "Sector": "Services",
+    "Fund": "EQT VII",
+    "Market": "Switzerland",
+    "Entry": "2016",
+    "Link": "https://eqtgroup.com/about/current-portfolio/kuoni-group-vfs-global",
+    "company_website": "https://www.vfsglobal.com/en/individuals/index.html"
+  },
+  {
+    "Company": "Kyobo Life Insurance",
+    "Sector": "Services",
+    "Fund": "BPEA Private Equity Fund V",
+    "Market": "Korea",
+    "Entry": "2012",
+    "Link": "https://eqtgroup.com/about/current-portfolio/kyobo-life-insurance",
+    "company_website": "https://www.kyobo.com/"
+  },
+  {
+    "Company": "Lazer Logistics",
+    "Sector": "Transport & Logistics",
+    "Fund": "",
+    "Market": "United States",
+    "Entry": "2023",
+    "Link": "https://eqtgroup.com/about/current-portfolio/lazer-logistics",
+    "company_website": "https://www.lazerlogistics.com/"
+  },
+  {
+    "Company": "Lenus",
+    "Sector": "Fitness Tech",
+    "Fund": "EQT Ventures II",
+    "Market": "Denmark",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/lenus",
+    "company_website": "https://lenusehealth.com/"
+  },
+  {
+    "Company": "Let's Do This",
+    "Sector": "Fitness Tech",
+    "Fund": "EQT Ventures II",
+    "Market": "United Kingdom",
+    "Entry": "2019",
+    "Link": "https://eqtgroup.com/about/current-portfolio/lets-do-this",
+    "company_website": "https://www.letsdothis.com/"
+  },
+  {
+    "Company": "Levande",
+    "Sector": "Social",
+    "Fund": "EQT Infrastructure V",
+    "Market": "Australia",
+    "Entry": "2022",
+    "Link": "https://eqtgroup.com/about/current-portfolio/levande",
+    "company_website": "https://www.levande.com.au/"
+  },
+  {
+    "Company": "Linearity",
+    "Sector": "Design Tech",
+    "Fund": "EQT Ventures II",
+    "Market": "Germany",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/linearity",
+    "company_website": "https://www.linearity.io/"
+  },
+  {
+    "Company": "Luma Vision",
+    "Sector": "Life Sciences",
+    "Fund": "LSP HEF 2",
+    "Market": "Ireland & Germany",
+    "Entry": "2020",
+    "Link": "https://eqtgroup.com/about/current-portfolio/luma-vision",
+    "company_website": "https://lumavision.com/"
+  },
+  {
+    "Company": "Lumenis",
+    "Sector": "Healthcare",
+    "Fund": "BPEA Private Equity Fund VII",
+    "Market": "Cross Border",
+    "Entry": "2020",
+    "Link": "https://eqtgroup.com/about/current-portfolio/lumenis",
+    "company_website": "https://lumenis.com/"
+  },
+  {
+    "Company": "Mabtech",
+    "Sector": "Biotech",
+    "Fund": "",
+    "Market": "Sweden",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/mabtech",
+    "company_website": "https://www.mabtech.com/"
+  },
+  {
+    "Company": "Madison Energy Infrastructure",
+    "Sector": "Energy",
+    "Fund": "",
+    "Market": "United States",
+    "Entry": "2023",
+    "Link": "https://eqtgroup.com/about/current-portfolio/madison-energy-infrastructure",
+    "company_website": "https://www.madisonei.com/"
+  },
+  {
+    "Company": "Magnit",
+    "Sector": "Services",
+    "Fund": "EQT IX",
+    "Market": "United States",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/magnit"
+  },
+  {
+    "Company": "Mambu",
+    "Sector": "Fintech",
+    "Fund": "EQT Growth",
+    "Market": "Netherlands",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/mambu",
+    "company_website": "https://mambu.com/"
+  },
+  {
+    "Company": "ManyPets",
+    "Sector": "Insurance",
+    "Fund": "EQT Growth",
+    "Market": "United Kingdom",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/manypets",
+    "company_website": "https://manypets.com/uk/"
+  },
+  {
+    "Company": "Medeye",
+    "Sector": "Life Sciences",
+    "Fund": "LSP HEF 1",
+    "Market": "Netherlands",
+    "Entry": "2014",
+    "Link": "https://eqtgroup.com/about/current-portfolio/medeye",
+    "company_website": "https://medeye.com/"
+  },
+  {
+    "Company": "Medifox",
+    "Sector": "TMT",
+    "Fund": "EQT Mid-Market Credit",
+    "Market": "Germany",
+    "Entry": "-",
+    "Link": "https://eqtgroup.com/about/current-portfolio/medifox"
+  },
+  {
+    "Company": "Medifox",
+    "Sector": "TMT",
+    "Fund": "EQT Mid-Market Credit II",
+    "Market": "Germany",
+    "Entry": "-",
+    "Link": "https://eqtgroup.com/about/current-portfolio/medifox"
+  },
+  {
+    "Company": "Melita",
+    "Sector": "Digital",
+    "Fund": "EQT Infrastructure IV",
+    "Market": "Malta",
+    "Entry": "2019",
+    "Link": "https://eqtgroup.com/about/current-portfolio/melita",
+    "company_website": "https://www.melita.com/"
+  },
+  {
+    "Company": "Meridian",
+    "Sector": "FinTech",
+    "Fund": "EQT Ventures III",
+    "Market": "The Netherlands",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/meridian",
+    "company_website": "https://www.meridian-mobile.com/"
+  },
+  {
+    "Company": "Merus",
+    "Sector": "Life Sciences",
+    "Fund": "LSP 4",
+    "Market": "Netherlands",
+    "Entry": "2010",
+    "Link": "https://eqtgroup.com/about/current-portfolio/merus",
+    "company_website": "https://merus.nl/"
+  },
+  {
+    "Company": "Metalcaucho",
+    "Sector": "Industrial Technology",
+    "Fund": "EQT Mid-Market Credit",
+    "Market": "Spain",
+    "Entry": "-",
+    "Link": "https://eqtgroup.com/about/current-portfolio/metalcaucho"
+  },
+  {
+    "Company": "Metalcaucho",
+    "Sector": "Industrial Technology",
+    "Fund": "EQT Mid-Market Credit II",
+    "Market": "Spain",
+    "Entry": "-",
+    "Link": "https://eqtgroup.com/about/current-portfolio/metalcaucho"
+  },
+  {
+    "Company": "Metlifecare",
+    "Sector": "Social",
+    "Fund": "EQT Infrastructure IV",
+    "Market": "New Zealand",
+    "Entry": "2020",
+    "Link": "https://eqtgroup.com/about/current-portfolio/metlifecare",
+    "company_website": "https://www.metlifecare.co.nz/"
+  },
+  {
+    "Company": "MHC Asia",
+    "Sector": "Healthcare",
+    "Fund": "",
+    "Market": "Singapore",
+    "Entry": "2019",
+    "Link": "https://eqtgroup.com/about/current-portfolio/mhc-asia",
+    "company_website": "https://mhcasia.com/"
+  },
+  {
+    "Company": "Minerva",
+    "Sector": "Real Estate",
+    "Fund": "",
+    "Market": "Italy",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/minerva"
+  },
+  {
+    "Company": "MinervaX",
+    "Sector": "Life Sciences",
+    "Fund": "LSP 7",
+    "Market": "Denmark",
+    "Entry": "2023",
+    "Link": "https://eqtgroup.com/about/current-portfolio/minervax",
+    "company_website": "https://minervax.com/"
+  },
+  {
+    "Company": "Mollie",
+    "Sector": "Fintech",
+    "Fund": "EQT Growth",
+    "Market": "Netherlands",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/mollie",
+    "company_website": "https://www.mollie.com/"
+  },
+  {
+    "Company": "Moralis",
+    "Sector": "Web Development",
+    "Fund": "EQT Ventures II",
+    "Market": "Sweden",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/moralis",
+    "company_website": "https://moralis.io/api/nft/"
+  },
+  {
+    "Company": "Muna Therapeutics",
+    "Sector": "Life Sciences",
+    "Fund": "LSP Dementia Fund",
+    "Market": "Denmark",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/muna-therapeutics",
+    "company_website": "https://munatherapeutics.com/"
+  },
+  {
+    "Company": "Munksj\u00f6",
+    "Sector": "Industrial Technology",
+    "Fund": "EQT Exp Capital I",
+    "Market": "Sweden",
+    "Entry": "-",
+    "Link": "https://eqtgroup.com/about/current-portfolio/munksjo"
+  },
+  {
+    "Company": "Munksj\u00f6",
+    "Sector": "Industrial Technology",
+    "Fund": "EQT III",
+    "Market": "Sweden",
+    "Entry": "-",
+    "Link": "https://eqtgroup.com/about/current-portfolio/munksjo"
+  },
+  {
+    "Company": "Natural Cycles",
+    "Sector": "Health Tech",
+    "Fund": "EQT Ventures I",
+    "Market": "Switzerland",
+    "Entry": "2017",
+    "Link": "https://eqtgroup.com/about/current-portfolio/natural-cycles",
+    "company_website": "https://www.naturalcycles.com/"
+  },
+  {
+    "Company": "Nest",
+    "Sector": "Real Estate",
+    "Fund": "",
+    "Market": "France",
+    "Entry": "2019",
+    "Link": "https://eqtgroup.com/about/current-portfolio/nest"
+  },
+  {
+    "Company": "Neurent Medical",
+    "Sector": "Life Sciences",
+    "Fund": "LSP HEF 2",
+    "Market": "Ireland",
+    "Entry": "2020",
+    "Link": "https://eqtgroup.com/about/current-portfolio/neurent-medical",
+    "company_website": "https://neurentmedical.com/"
+  },
+  {
+    "Company": "New Amsterdam Pharma",
+    "Sector": "Life Sciences",
+    "Fund": "LSP Dementia Fund",
+    "Market": "Netherlands",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/new-amsterdam-pharma",
+    "company_website": "https://www.newamsterdampharma.com/"
+  },
+  {
+    "Company": "Nexon Asia Pacific",
+    "Sector": "Technology",
+    "Fund": "",
+    "Market": "Australia",
+    "Entry": "2019",
+    "Link": "https://eqtgroup.com/about/current-portfolio/nexon-asia-pacific",
+    "company_website": "https://nexon.com.au/"
+  },
+  {
+    "Company": "Nkarta",
+    "Sector": "Life Sciences",
+    "Fund": "LSP 6",
+    "Market": "United States",
+    "Entry": "2019",
+    "Link": "https://eqtgroup.com/about/current-portfolio/nkarta",
+    "company_website": "https://www.nkartatx.com/"
+  },
+  {
+    "Company": "Nobi",
+    "Sector": "Life Sciences",
+    "Fund": "LSP HEF 2",
+    "Market": "Belgium",
+    "Entry": "2022",
+    "Link": "https://eqtgroup.com/about/current-portfolio/nobi",
+    "company_website": "https://www.nobi.life/"
+  },
+  {
+    "Company": "Nobi",
+    "Sector": "Life Sciences",
+    "Fund": "LSP Dementia Fund",
+    "Market": "Belgium",
+    "Entry": "2022",
+    "Link": "https://eqtgroup.com/about/current-portfolio/nobi",
+    "company_website": "https://www.nobi.life/"
+  },
+  {
+    "Company": "Noema Pharma",
+    "Sector": "Life Sciences",
+    "Fund": "LSP 7",
+    "Market": "Switzerland",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/noema-pharma",
+    "company_website": "https://noemapharma.com/"
+  },
+  {
+    "Company": "Nord Anglia Education",
+    "Sector": "Services",
+    "Fund": "BPEA Private Equity Fund VI",
+    "Market": "Cross Border",
+    "Entry": "2017",
+    "Link": "https://eqtgroup.com/about/current-portfolio/nord-anglia",
+    "company_website": "https://www.nordangliaeducation.com/"
+  },
+  {
+    "Company": "Nordic Ferry Infrastructure",
+    "Sector": "Transport & Logistics",
+    "Fund": "EQT Infrastructure V",
+    "Market": "Norway, Denmark & Sweden",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/nordic-ferry-infrastructure"
+  },
+  {
+    "Company": "Nouscom",
+    "Sector": "Life Sciences",
+    "Fund": "LSP 5",
+    "Market": "Switzerland",
+    "Entry": "2015",
+    "Link": "https://eqtgroup.com/about/current-portfolio/nouscom",
+    "company_website": "https://nouscom.com/"
+  },
+  {
+    "Company": "O2 Power",
+    "Sector": "Energy & Environmental",
+    "Fund": "EQT Infrastructure IV",
+    "Market": "India",
+    "Entry": "2020",
+    "Link": "https://eqtgroup.com/about/current-portfolio/o2-power",
+    "company_website": "https://www.o2power.in/"
+  },
+  {
+    "Company": "Ocea Group",
+    "Sector": "Energy & Environmental",
+    "Fund": "EQT Active Core Infrastructure I",
+    "Market": "France",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/ocea-group",
+    "company_website": "https://www.groupe-ocea.fr/"
+  },
+  {
+    "Company": "Oculis",
+    "Sector": "Life Sciences",
+    "Fund": "LSP 7",
+    "Market": "Switzerland",
+    "Entry": "2022",
+    "Link": "https://eqtgroup.com/about/current-portfolio/oculis-holding-ag",
+    "company_website": "https://oculis.com/"
+  },
+  {
+    "Company": "Onera Health",
+    "Sector": "Healthcare",
+    "Fund": "",
+    "Market": "Netherlands",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/onera-health",
+    "company_website": "https://www.onerahealth.com/"
+  },
+  {
+    "Company": "Ontinue",
+    "Sector": "Technology",
+    "Fund": "EQT Mid Market Europe",
+    "Market": "Switzerland",
+    "Entry": "2017",
+    "Link": "https://eqtgroup.com/about/current-portfolio/ontinue",
+    "company_website": "https://www.ontinue.com/"
+  },
+  {
+    "Company": "ONWARD",
+    "Sector": "Life Sciences",
+    "Fund": "LSP 5",
+    "Market": "Netherlands",
+    "Entry": "2016",
+    "Link": "https://eqtgroup.com/about/current-portfolio/onward",
+    "company_website": "https://www.onwd.com/"
+  },
+  {
+    "Company": "Open Systems",
+    "Sector": "Technology",
+    "Fund": "EQT Mid Market Europe",
+    "Market": "Switzerland",
+    "Entry": "2017",
+    "Link": "https://eqtgroup.com/about/current-portfolio/open-systems",
+    "company_website": "https://www.open-systems.com/"
+  },
+  {
+    "Company": "Orphazyme",
+    "Sector": "Life Sciences",
+    "Fund": "LSP 5",
+    "Market": "Denmark",
+    "Entry": "2017",
+    "Link": "https://eqtgroup.com/about/current-portfolio/orphazyme",
+    "company_website": "https://www.strategic-partners.dk/"
+  },
+  {
+    "Company": "Osmose Utilities Services, Inc.",
+    "Sector": "Energy & Environmental",
+    "Fund": "EQT Infrastructure IV",
+    "Market": "United States",
+    "Entry": "2019",
+    "Link": "https://eqtgroup.com/about/current-portfolio/osmose-utilities-services-inc"
+  },
+  {
+    "Company": "Oterra",
+    "Sector": "Industrial Technology",
+    "Fund": "EQT IX",
+    "Market": "Denmark",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/oterra",
+    "company_website": "https://oterra.com/"
+  },
+  {
+    "Company": "OX2",
+    "Sector": "Energy & Environmental",
+    "Fund": "",
+    "Market": "Sweden",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/ox2",
+    "company_website": "https://webox2.com/"
+  },
+  {
+    "Company": "OxThera",
+    "Sector": "Life Sciences",
+    "Fund": "LSP 5",
+    "Market": "Sweden",
+    "Entry": "2016",
+    "Link": "https://eqtgroup.com/about/current-portfolio/oxthera",
+    "company_website": "https://oxthera.com/"
+  },
+  {
+    "Company": "Packmatic",
+    "Sector": "Packaging",
+    "Fund": "EQT Ventures III",
+    "Market": "Germany",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/packmatic",
+    "company_website": "https://www.packmatic.io/"
+  },
+  {
+    "Company": "PageUp",
+    "Sector": "Technology",
+    "Fund": "BPEA Private Equity Fund VIII",
+    "Market": "Australia",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/pageup",
+    "company_website": "https://www.pageuppeople.com/"
+  },
+  {
+    "Company": "Pantera",
+    "Sector": "Life Sciences",
+    "Fund": "LSP 7",
+    "Market": "Belgium",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/pantera",
+    "company_website": "https://pantera-life.com/"
+  },
+  {
+    "Company": "Parexel",
+    "Sector": "Healthcare",
+    "Fund": "EQT IX",
+    "Market": "United States",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/parexel"
+  },
+  {
+    "Company": "Parloa",
+    "Sector": "Artificial Intelligence",
+    "Fund": "EQT Ventures III",
+    "Market": "Germany",
+    "Entry": "2023",
+    "Link": "https://eqtgroup.com/about/current-portfolio/parloa",
+    "company_website": "https://www.parloa.com/"
+  },
+  {
+    "Company": "Parques Reunidos",
+    "Sector": "Social",
+    "Fund": "EQT Infrastructure IV",
+    "Market": "Spain",
+    "Entry": "2019",
+    "Link": "https://eqtgroup.com/about/current-portfolio/parques-reunidos",
+    "company_website": "https://www.parquesreunidos.com/"
+  },
+  {
+    "Company": "Payrails",
+    "Sector": "Fintech",
+    "Fund": "EQT Ventures III",
+    "Market": "Germany",
+    "Entry": "2023",
+    "Link": "https://eqtgroup.com/about/current-portfolio/payrails",
+    "company_website": "https://www.payrails.com/"
+  },
+  {
+    "Company": "Perficient",
+    "Sector": "Technology",
+    "Fund": "BPEA Private Equity Fund VIII",
+    "Market": "Cross Border",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/perficient",
+    "company_website": "https://www.perficient.com/"
+  },
+  {
+    "Company": "Perfuze",
+    "Sector": "Life Sciences",
+    "Fund": "LSP HEF 2",
+    "Market": "Ireland",
+    "Entry": "2022",
+    "Link": "https://eqtgroup.com/about/current-portfolio/perfuze",
+    "company_website": "https://www.perfuze.com/"
+  },
+  {
+    "Company": "Permutive",
+    "Sector": "Publishing",
+    "Fund": "EQT Ventures I",
+    "Market": "United Kingdom",
+    "Entry": "2018",
+    "Link": "https://eqtgroup.com/about/current-portfolio/permutive",
+    "company_website": "https://permutive.com/"
+  },
+  {
+    "Company": "Phagenesis",
+    "Sector": "Healthcare",
+    "Fund": "",
+    "Market": "United Kingdom",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/phagenesis",
+    "company_website": "https://www.phagenesis.com/"
+  },
+  {
+    "Company": "Pharvaris",
+    "Sector": "Life Sciences",
+    "Fund": "LSP 5",
+    "Market": "Germany",
+    "Entry": "2016",
+    "Link": "https://eqtgroup.com/about/current-portfolio/pharvaris",
+    "company_website": "https://pharvaris.com/"
+  },
+  {
+    "Company": "Pioneer",
+    "Sector": "Industrial Technology",
+    "Fund": "BPEA Private Equity Fund VI",
+    "Market": "Japan",
+    "Entry": "2019",
+    "Link": "https://eqtgroup.com/about/current-portfolio/pioneer",
+    "company_website": "https://global.pioneer/en/"
+  },
+  {
+    "Company": "Pioneer",
+    "Sector": "Industrial Technology",
+    "Fund": "BPEA Private Equity Fund VII",
+    "Market": "Japan",
+    "Entry": "2019",
+    "Link": "https://eqtgroup.com/about/current-portfolio/pioneer",
+    "company_website": "https://global.pioneer/en/"
+  },
+  {
+    "Company": "Playsome",
+    "Sector": "Mobile Gaming",
+    "Fund": "EQT Ventures II",
+    "Market": "Finland",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/playsome",
+    "company_website": "https://www.playsome.fi/"
+  },
+  {
+    "Company": "Prometric",
+    "Sector": "Services",
+    "Fund": "BPEA Private Equity Fund VI",
+    "Market": "Cross Border",
+    "Entry": "2018",
+    "Link": "https://eqtgroup.com/about/current-portfolio/prometric",
+    "company_website": "https://www.prometric.com/"
+  },
+  {
+    "Company": "PropertyGuru",
+    "Sector": "Services",
+    "Fund": "BPEA Private Equity Fund VIII",
+    "Market": "Southeast Asia",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/propertyguru",
+    "company_website": "https://www.propertygurugroup.com/"
+  },
+  {
+    "Company": "Pruna AI",
+    "Sector": "Artificial Intelligence",
+    "Fund": "EQT Ventures III",
+    "Market": "Germany",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/pruna-ai",
+    "company_website": "https://www.pruna.ai/"
+  },
+  {
+    "Company": "Qevlar AI",
+    "Sector": "Engineering Services",
+    "Fund": "EQT Ventures III",
+    "Market": "France",
+    "Entry": "2023",
+    "Link": "https://eqtgroup.com/about/current-portfolio/qevlar-ai",
+    "company_website": "https://www.qevlar.com/"
+  },
+  {
+    "Company": "Quantios",
+    "Sector": "Technology",
+    "Fund": "BPEA EQT Mid-Market Growth",
+    "Market": "United States",
+    "Entry": "2023",
+    "Link": "https://eqtgroup.com/about/current-portfolio/quantios"
+  },
+  {
+    "Company": "QurAlis",
+    "Sector": "Healthcare",
+    "Fund": "LSP Dementia Fund",
+    "Market": "United States",
+    "Entry": "2022",
+    "Link": "https://eqtgroup.com/about/current-portfolio/quralis"
+  },
+  {
+    "Company": "Radius",
+    "Sector": "Digital",
+    "Fund": "EQT Active Core Infrastructure I",
+    "Market": "United States",
+    "Entry": "2023",
+    "Link": "https://eqtgroup.com/about/current-portfolio/radius"
+  },
+  {
+    "Company": "Recipharm",
+    "Sector": "Healthcare",
+    "Fund": "EQT IX",
+    "Market": "Sweden",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/recipharm",
+    "company_website": "https://www.recipharm.com/"
+  },
+  {
+    "Company": "Recover",
+    "Sector": "Services",
+    "Fund": "EQT VIII",
+    "Market": "Norway",
+    "Entry": "2020",
+    "Link": "https://eqtgroup.com/about/current-portfolio/recover",
+    "company_website": "https://recovergroup.com/"
+  },
+  {
+    "Company": "Reworld",
+    "Sector": "Energy & Environmental",
+    "Fund": "EQT Infrastructure V",
+    "Market": "United States",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/reworld"
+  },
+  {
+    "Company": "Sagility",
+    "Sector": "Technology Services",
+    "Fund": "BPEA Private Equity Fund VIII",
+    "Market": "India",
+    "Entry": "2022",
+    "Link": "https://eqtgroup.com/about/current-portfolio/sagility",
+    "company_website": "https://sagilityhealth.com/"
+  },
+  {
+    "Company": "Sana Labs",
+    "Sector": "EduTech",
+    "Fund": "EQT Ventures II",
+    "Market": "Sweden",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/sana-labs",
+    "company_website": "https://www.sanalabs.com/"
+  },
+  {
+    "Company": "Saturn",
+    "Sector": "Real Estate",
+    "Fund": "",
+    "Market": "United Kingdom",
+    "Entry": "2020",
+    "Link": "https://eqtgroup.com/about/current-portfolio/saturn"
+  },
+  {
+    "Company": "SAUR",
+    "Sector": "Energy & Environmental",
+    "Fund": "EQT Infrastructure IV",
+    "Market": "France",
+    "Entry": "2018",
+    "Link": "https://eqtgroup.com/about/current-portfolio/saur",
+    "company_website": "https://www.saur.com/"
+  },
+  {
+    "Company": "Segra",
+    "Sector": "Technology",
+    "Fund": "EQT Infrastructure III",
+    "Market": "United States",
+    "Entry": "2017",
+    "Link": "https://eqtgroup.com/about/current-portfolio/segra",
+    "company_website": "https://www.segra.com/"
+  },
+  {
+    "Company": "Sequana Medical",
+    "Sector": "Life Sciences",
+    "Fund": "LSP HEF 1",
+    "Market": "Belgium",
+    "Entry": "2014",
+    "Link": "https://eqtgroup.com/about/current-portfolio/sequana-medical",
+    "company_website": "https://www.sequanamedical.com/"
+  },
+  {
+    "Company": "Shengmu Organic Milk",
+    "Sector": "Consumer",
+    "Fund": "BPEA Private Equity Fund V",
+    "Market": "Greater China",
+    "Entry": "2014",
+    "Link": "https://eqtgroup.com/about/current-portfolio/shengmu-organic-milk",
+    "company_website": "https://www.youjimilk.com/"
+  },
+  {
+    "Company": "Shinobi Therapeutics",
+    "Sector": "Life Sciences",
+    "Fund": "LSP 7",
+    "Market": "United States",
+    "Entry": "2023",
+    "Link": "https://eqtgroup.com/about/current-portfolio/shinobi-therapeutics",
+    "company_website": "https://www.shinobitx.com/"
+  },
+  {
+    "Company": "SHL Medical",
+    "Sector": "Healthcare",
+    "Fund": "EQT Future",
+    "Market": "Switzerland",
+    "Entry": "2023",
+    "Link": "https://eqtgroup.com/about/current-portfolio/shl-medical",
+    "company_website": "https://www.shl-medical.com/"
+  },
+  {
+    "Company": "Sifflet",
+    "Sector": "Data Analytics",
+    "Fund": "EQT Ventures III",
+    "Market": "France",
+    "Entry": "2023",
+    "Link": "https://eqtgroup.com/about/current-portfolio/sifflet",
+    "company_website": "https://www.siffletdata.com/"
+  },
+  {
+    "Company": "Sitecore",
+    "Sector": "Technology",
+    "Fund": "EQT VII",
+    "Market": "Denmark",
+    "Entry": "2016",
+    "Link": "https://eqtgroup.com/about/current-portfolio/sitecore",
+    "company_website": "https://www.sitecore.com/"
+  },
+  {
+    "Company": "SK Shieldus",
+    "Sector": "Technology",
+    "Fund": "",
+    "Market": "South Korea",
+    "Entry": "2023",
+    "Link": "https://eqtgroup.com/about/current-portfolio/sk-shieldus",
+    "company_website": "https://www.skshieldus.com/eng/index.do"
+  },
+  {
+    "Company": "Smart Parc",
+    "Sector": "Real Estate",
+    "Fund": "",
+    "Market": "France",
+    "Entry": "2016",
+    "Link": "https://eqtgroup.com/about/current-portfolio/smart-parc",
+    "company_website": "http://www.smart-parc.fr/"
+  },
+  {
+    "Company": "SNIPR Biome",
+    "Sector": "Life Sciences",
+    "Fund": "LSP 6",
+    "Market": "Denmark",
+    "Entry": "2019",
+    "Link": "https://eqtgroup.com/about/current-portfolio/snipr-biome",
+    "company_website": "https://www.sniprbiome.com/"
+  },
+  {
+    "Company": "Solera",
+    "Sector": "Technology",
+    "Fund": "BPEA Private Equity Fund V",
+    "Market": "Cross Border",
+    "Entry": "2016",
+    "Link": "https://eqtgroup.com/about/current-portfolio/solera",
+    "company_website": "https://www.solera.com/"
+  },
+  {
+    "Company": "Southside",
+    "Sector": "Real Estate",
+    "Fund": "",
+    "Market": "Sweden",
+    "Entry": "2018",
+    "Link": "https://eqtgroup.com/about/current-portfolio/southside"
+  },
+  {
+    "Company": "Sportradar",
+    "Sector": "TMT",
+    "Fund": "EQT VI",
+    "Market": "Switzerland",
+    "Entry": "-",
+    "Link": "https://eqtgroup.com/about/current-portfolio/sportradar"
+  },
+  {
+    "Company": "Sportradar",
+    "Sector": "TMT",
+    "Fund": "EQT Exp Capital II",
+    "Market": "Switzerland",
+    "Entry": "-",
+    "Link": "https://eqtgroup.com/about/current-portfolio/sportradar"
+  },
+  {
+    "Company": "SPT Labtech",
+    "Sector": "Healthcare",
+    "Fund": "EQT IX",
+    "Market": "United Kingdom",
+    "Entry": "2022",
+    "Link": "https://eqtgroup.com/about/current-portfolio/spt-labtech",
+    "company_website": "https://www.sptlabtech.com/"
+  },
+  {
+    "Company": "SSP",
+    "Sector": "Services",
+    "Fund": "EQT Exp Capital I",
+    "Market": "United Kingdom",
+    "Entry": "-",
+    "Link": "https://eqtgroup.com/about/current-portfolio/ssp2"
+  },
+  {
+    "Company": "Stacks",
+    "Sector": "Fintech",
+    "Fund": "EQT Ventures III",
+    "Market": "The Netherlands",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/stacks",
+    "company_website": "https://stacks.ai/"
+  },
+  {
+    "Company": "Statera",
+    "Sector": "Energy",
+    "Fund": "",
+    "Market": "United Kingdom",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/statera"
+  },
+  {
+    "Company": "Stend\u00f6rren",
+    "Sector": "Real Estate",
+    "Fund": "",
+    "Market": "Sweden",
+    "Entry": "2018",
+    "Link": "https://eqtgroup.com/about/current-portfolio/stendorren",
+    "company_website": "https://www.stendorren.se/en/"
+  },
+  {
+    "Company": "Stenqvist",
+    "Sector": "Consumer goods",
+    "Fund": "EQT I",
+    "Market": "Sweden",
+    "Entry": "-",
+    "Link": "https://eqtgroup.com/about/current-portfolio/stenqvist"
+  },
+  {
+    "Company": "Stenqvist",
+    "Sector": "Consumer goods",
+    "Fund": "EQT Exp Capital I",
+    "Market": "Sweden",
+    "Entry": "-",
+    "Link": "https://eqtgroup.com/about/current-portfolio/stenqvist"
+  },
+  {
+    "Company": "Storable",
+    "Sector": "Technology",
+    "Fund": "EQT IX",
+    "Market": "United States",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/storable"
+  },
+  {
+    "Company": "Straive",
+    "Sector": "Technology Services",
+    "Fund": "BPEA Private Equity Fund VII",
+    "Market": "Southeast Asia/India",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/straive",
+    "company_website": "https://www.straive.com/"
+  },
+  {
+    "Company": "SuperNormal",
+    "Sector": "Remote Work",
+    "Fund": "EQT Ventures II",
+    "Market": "Sweden",
+    "Entry": "2020",
+    "Link": "https://eqtgroup.com/about/current-portfolio/supernormal",
+    "company_website": "https://supernormal.com/"
+  },
+  {
+    "Company": "SUSE",
+    "Sector": "Technology",
+    "Fund": "EQT VIII",
+    "Market": "Germany",
+    "Entry": "2019",
+    "Link": "https://eqtgroup.com/about/current-portfolio/suse",
+    "company_website": "https://www.suse.com/"
+  },
+  {
+    "Company": "Svenska Verksamhetsfastigheter",
+    "Sector": "Real Estate",
+    "Fund": "",
+    "Market": "Sweden",
+    "Entry": "2019",
+    "Link": "https://eqtgroup.com/about/current-portfolio/svenska-verksamhetsfastigheter"
+  },
+  {
+    "Company": "Syntetica",
+    "Sector": "Sustainability",
+    "Fund": "EQT Ventures III",
+    "Market": "France",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/syntetica",
+    "company_website": "https://www.syntetica.co/"
+  },
+  {
+    "Company": "T-Knife",
+    "Sector": "Life Sciences",
+    "Fund": "LSP 6",
+    "Market": "Germany",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/t-knife",
+    "company_website": "https://www.t-knife.com/"
+  },
+  {
+    "Company": "Talentium",
+    "Sector": "Artificial Intelligence",
+    "Fund": "EQT Ventures III",
+    "Market": "Sweden",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/talentium",
+    "company_website": "https://talentium.io/"
+  },
+  {
+    "Company": "TELUS International",
+    "Sector": "Technology Services",
+    "Fund": "BPEA Private Equity Fund VI",
+    "Market": "Southeast Asia",
+    "Entry": "2016",
+    "Link": "https://eqtgroup.com/about/current-portfolio/telus-international",
+    "company_website": "https://www.telusdigital.com/"
+  },
+  {
+    "Company": "Tenpoints Therapeutics",
+    "Sector": "Life Sciences",
+    "Fund": "LSP 6",
+    "Market": "United States",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/tenpoints-therapeutics",
+    "company_website": "https://www.tenpointtherapeutics.com/"
+  },
+  {
+    "Company": "The CrownX",
+    "Sector": "Services",
+    "Fund": "BPEA Private Equity Fund VII",
+    "Market": "Southeast Asia",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/the-crownx",
+    "company_website": "https://winmart.vn/"
+  },
+  {
+    "Company": "The Exploration Company",
+    "Sector": "Aerospace Manufacturing",
+    "Fund": "EQT Ventures III",
+    "Market": "Germany",
+    "Entry": "2023",
+    "Link": "https://eqtgroup.com/about/current-portfolio/the-exploration-company",
+    "company_website": "https://www.exploration.space/"
+  },
+  {
+    "Company": "thinkproject",
+    "Sector": "Technology",
+    "Fund": "EQT IX",
+    "Market": "Germany",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/thinkproject",
+    "company_website": "https://www.thinkproject.com/"
+  },
+  {
+    "Company": "Timeless",
+    "Sector": "Fintech",
+    "Fund": "EQT Ventures III",
+    "Market": "Germany",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/timeless",
+    "company_website": "https://www.timeless.investments/"
+  },
+  {
+    "Company": "Tion Renewables",
+    "Sector": "Energy & Environmental",
+    "Fund": "EQT Active Core Infrastructure I",
+    "Market": "Germany",
+    "Entry": "2023",
+    "Link": "https://eqtgroup.com/about/current-portfolio/tion-renewables",
+    "company_website": "https://tion-renewables.com/"
+  },
+  {
+    "Company": "Treecard",
+    "Sector": "Fintech",
+    "Fund": "EQT Ventures II",
+    "Market": "United Kingdom",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/treecard",
+    "company_website": "https://www.treecard.org/"
+  },
+  {
+    "Company": "Trescal",
+    "Sector": "Transport & Logistics",
+    "Fund": "EQT Infrastructure V",
+    "Market": "France",
+    "Entry": "2023",
+    "Link": "https://eqtgroup.com/about/current-portfolio/trescal"
+  },
+  {
+    "Company": "TRYT",
+    "Sector": "Services",
+    "Fund": "BPEA Private Equity Fund VII",
+    "Market": "Japan",
+    "Entry": "2018",
+    "Link": "https://eqtgroup.com/about/current-portfolio/tryt",
+    "company_website": "https://tryt-group.co.jp/en/"
+  },
+  {
+    "Company": "Tubulis",
+    "Sector": "Life Sciences",
+    "Fund": "LSP 7",
+    "Market": "Germany",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/tubulis",
+    "company_website": "https://tubulis.com/"
+  },
+  {
+    "Company": "Unmind",
+    "Sector": "HR Tech",
+    "Fund": "EQT Ventures II",
+    "Market": "United Kingdom",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/unmind",
+    "company_website": "https://unmind.com/"
+  },
+  {
+    "Company": "Unum",
+    "Sector": "Real Estate",
+    "Fund": "",
+    "Market": "Sweden",
+    "Entry": "2016",
+    "Link": "https://eqtgroup.com/about/current-portfolio/unum",
+    "company_website": "https://www.unum.com/"
+  },
+  {
+    "Company": "UTA",
+    "Sector": "Services",
+    "Fund": "EQT X",
+    "Market": "United States",
+    "Entry": "2022",
+    "Link": "https://eqtgroup.com/about/current-portfolio/uta"
+  },
+  {
+    "Company": "VarmX",
+    "Sector": "Life Sciences",
+    "Fund": "LSP 6",
+    "Market": "Netherlands",
+    "Entry": "2020",
+    "Link": "https://eqtgroup.com/about/current-portfolio/varmx",
+    "company_website": "https://varmx.com/"
+  },
+  {
+    "Company": "Vectary",
+    "Sector": "Design Tech",
+    "Fund": "EQT Ventures II",
+    "Market": "Slovakia",
+    "Entry": "2020",
+    "Link": "https://eqtgroup.com/about/current-portfolio/vectary",
+    "company_website": "https://www.vectary.com/"
+  },
+  {
+    "Company": "VectorY",
+    "Sector": "Life Sciences",
+    "Fund": "LSP Dementia Fund",
+    "Market": "Netherlands",
+    "Entry": "2023",
+    "Link": "https://eqtgroup.com/about/current-portfolio/vectory",
+    "company_website": "https://www.vectorytx.com/"
+  },
+  {
+    "Company": "Veritas Petroleum Services (VPS)",
+    "Sector": "Services",
+    "Fund": "EQT Mid-Market Credit",
+    "Market": "Netherlands",
+    "Entry": "-",
+    "Link": "https://eqtgroup.com/about/current-portfolio/veritas-petroleum-services-vps"
+  },
+  {
+    "Company": "Veritas Petroleum Services (VPS)",
+    "Sector": "Services",
+    "Fund": "EQT Mid-Market Credit II",
+    "Market": "Netherlands",
+    "Entry": "-",
+    "Link": "https://eqtgroup.com/about/current-portfolio/veritas-petroleum-services-vps"
+  },
+  {
+    "Company": "VetPartners",
+    "Sector": "Healthcare",
+    "Fund": "BPEA Private Equity Fund VIII",
+    "Market": "Australia",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/vetpartners",
+    "company_website": "https://vet.partners/"
+  },
+  {
+    "Company": "Vev",
+    "Sector": "Design Tech",
+    "Fund": "EQT Ventures II",
+    "Market": "Norway",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/vev",
+    "company_website": "https://www.vev.design/"
+  },
+  {
+    "Company": "ViCentra",
+    "Sector": "Life Sciences",
+    "Fund": "LSP HEF 2",
+    "Market": "Netherlands",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/vicentra-lsp-hef-2",
+    "company_website": "https://www.hellokaleido.com/"
+  },
+  {
+    "Company": "ViCentra",
+    "Sector": "Life Sciences",
+    "Fund": "LSP 5",
+    "Market": "Netherlands",
+    "Entry": "2016",
+    "Link": "https://eqtgroup.com/about/current-portfolio/vicentra",
+    "company_website": "https://www.hellokaleido.com/"
+  },
+  {
+    "Company": "ViCentra",
+    "Sector": "Life Sciences",
+    "Fund": "LSP HEF 1",
+    "Market": "Netherlands",
+    "Entry": "2016",
+    "Link": "https://eqtgroup.com/about/current-portfolio/vicentra-lsp-hef-1",
+    "company_website": "https://www.hellokaleido.com/"
+  },
+  {
+    "Company": "Vico Therapeutics",
+    "Sector": "Life Sciences",
+    "Fund": "LSP 6",
+    "Market": "Belgium",
+    "Entry": "2019",
+    "Link": "https://eqtgroup.com/about/current-portfolio/vico-therapeutics",
+    "company_website": "https://vicotx.com/"
+  },
+  {
+    "Company": "Vidlab7",
+    "Sector": "Artificial Intelligence",
+    "Fund": "EQT Ventures III",
+    "Market": "Germany",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/vidlab7",
+    "company_website": "https://www.vidlab7.com/"
+  },
+  {
+    "Company": "Vietnam-USA Society English Centers (\u201cVUS\u201d)",
+    "Sector": "Services",
+    "Fund": "BPEA Private Equity Fund VII",
+    "Market": "Southeast Asia",
+    "Entry": "2019",
+    "Link": "https://eqtgroup.com/about/current-portfolio/vus",
+    "company_website": "https://teachenglish.vus.edu.vn/"
+  },
+  {
+    "Company": "Vinted",
+    "Sector": "Consumer",
+    "Fund": "EQT Growth",
+    "Market": "Lithuania",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/vinted",
+    "company_website": "https://www.vinted.co.uk/"
+  },
+  {
+    "Company": "ViridiCO2",
+    "Sector": "Sustainability",
+    "Fund": "EQT Ventures III",
+    "Market": "United Kingdom",
+    "Entry": "2023",
+    "Link": "https://eqtgroup.com/about/current-portfolio/viridico2",
+    "company_website": "https://viridico2.co.uk/"
+  },
+  {
+    "Company": "Virtuos",
+    "Sector": "Technology Services",
+    "Fund": "BPEA Private Equity Fund VII",
+    "Market": "Southeast Asia",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/virtuos",
+    "company_website": "https://www.virtuosgames.com/"
+  },
+  {
+    "Company": "Virtusa",
+    "Sector": "Technology Services",
+    "Fund": "BPEA Private Equity Fund VII",
+    "Market": "India",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/virtusa",
+    "company_website": "https://www.virtusa.com/"
+  },
+  {
+    "Company": "Vistra",
+    "Sector": "Services",
+    "Fund": "BPEA Private Equity Fund VIII",
+    "Market": "Pan-Asia",
+    "Entry": "2022",
+    "Link": "https://eqtgroup.com/about/current-portfolio/vistra-bpea-private-equity-fund-viii",
+    "company_website": "https://www.vistra.com/"
+  },
+  {
+    "Company": "Vivasure",
+    "Sector": "Life Sciences",
+    "Fund": "LSP HEF 1",
+    "Market": "Ireland",
+    "Entry": "2016",
+    "Link": "https://eqtgroup.com/about/current-portfolio/vivasure",
+    "company_website": "https://vivasuremedical.com/"
+  },
+  {
+    "Company": "Voil\u00e0",
+    "Sector": "Food Delivery",
+    "Fund": "EQT Ventures III",
+    "Market": "Germany",
+    "Entry": "2022",
+    "Link": "https://eqtgroup.com/about/current-portfolio/voila",
+    "company_website": "https://getvoila.com/"
+  },
+  {
+    "Company": "Volt",
+    "Sector": "Fintech",
+    "Fund": "EQT Ventures II",
+    "Market": "United Kingdom",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/volt",
+    "company_website": "https://www.volt.io/"
+  },
+  {
+    "Company": "Voltera",
+    "Sector": "Transport & Logistics",
+    "Fund": "",
+    "Market": "United States",
+    "Entry": "-",
+    "Link": "https://eqtgroup.com/about/current-portfolio/voltera"
+  },
+  {
+    "Company": "Vsim",
+    "Sector": "Artificial Intelligence",
+    "Fund": "EQT Ventures III",
+    "Market": "United Kingdom",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/vsim",
+    "company_website": "https://v-sim.co.uk/"
+  },
+  {
+    "Company": "Wall Street English",
+    "Sector": "Services",
+    "Fund": "BPEA Private Equity Fund VI",
+    "Market": "Cross Border",
+    "Entry": "2018",
+    "Link": "https://eqtgroup.com/about/current-portfolio/wall-street-english-international",
+    "company_website": "https://www.wallstreetenglish.com/"
+  },
+  {
+    "Company": "WASH",
+    "Sector": "Social",
+    "Fund": "EQT Infrastructure II",
+    "Market": "United States",
+    "Entry": "2015",
+    "Link": "https://eqtgroup.com/about/current-portfolio/wash",
+    "company_website": "https://www.wash.com/"
+  },
+  {
+    "Company": "Waystar",
+    "Sector": "Technology",
+    "Fund": "EQT VIII",
+    "Market": "United States",
+    "Entry": "2019",
+    "Link": "https://eqtgroup.com/about/current-portfolio/waystar",
+    "company_website": "https://www.waystar.com/"
+  },
+  {
+    "Company": "Wellhub",
+    "Sector": "Health Tech",
+    "Fund": "EQT Growth",
+    "Market": "United States",
+    "Entry": "2023",
+    "Link": "https://eqtgroup.com/about/current-portfolio/wellhub",
+    "company_website": "https://wellhub.com/en-uk/"
+  },
+  {
+    "Company": "WorkWave",
+    "Sector": "Technology",
+    "Fund": "EQT IX",
+    "Market": "United States",
+    "Entry": "2020",
+    "Link": "https://eqtgroup.com/about/current-portfolio/workwave"
+  },
+  {
+    "Company": "WorkWave",
+    "Sector": "Technology",
+    "Fund": "EQT VIII",
+    "Market": "United States",
+    "Entry": "2020",
+    "Link": "https://eqtgroup.com/about/current-portfolio/workwave"
+  },
+  {
+    "Company": "World Freight Company",
+    "Sector": "Technology Services",
+    "Fund": "BPEA Private Equity Fund VI",
+    "Market": "Pan-Asia",
+    "Entry": "2018",
+    "Link": "https://eqtgroup.com/about/current-portfolio/world-freight-company",
+    "company_website": "https://www.worldfreightcompany.com/"
+  },
+  {
+    "Company": "WS Audiology",
+    "Sector": "Healthcare",
+    "Fund": "EQT VII",
+    "Market": "Denmark",
+    "Entry": "2019",
+    "Link": "https://eqtgroup.com/about/current-portfolio/ws-audiology-2",
+    "company_website": "https://wsaudiology.com/"
+  },
+  {
+    "Company": "WS Audiology",
+    "Sector": "Healthcare",
+    "Fund": "EQT VIII",
+    "Market": "Denmark",
+    "Entry": "2019",
+    "Link": "https://eqtgroup.com/about/current-portfolio/ws-audiology-2",
+    "company_website": "https://wsaudiology.com/"
+  },
+  {
+    "Company": "WSO2",
+    "Sector": "Technology",
+    "Fund": "BPEA Private Equity Fund VIII",
+    "Market": "Cross Border",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/wso2",
+    "company_website": "https://wso2.com/"
+  },
+  {
+    "Company": "Xeltis",
+    "Sector": "Life Sciences",
+    "Fund": "LSP HEF 1",
+    "Market": "Netherlands",
+    "Entry": "2014",
+    "Link": "https://eqtgroup.com/about/current-portfolio/xeltis",
+    "company_website": "https://xeltis.com/"
+  },
+  {
+    "Company": "Xeltis",
+    "Sector": "Life Sciences",
+    "Fund": "LSP HEF 2",
+    "Market": "Netherlands",
+    "Entry": "2022",
+    "Link": "https://eqtgroup.com/about/current-portfolio/xeltis-lsp-hef-2",
+    "company_website": "https://xeltis.com/"
+  },
+  {
+    "Company": "Xilis",
+    "Sector": "Life Sciences",
+    "Fund": "LSP 6",
+    "Market": "United States",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/xilis",
+    "company_website": "https://xilis.com/"
+  },
+  {
+    "Company": "XyloCor Therapeutics",
+    "Sector": "Life Sciences",
+    "Fund": "LSP 6",
+    "Market": "United States",
+    "Entry": "2018",
+    "Link": "https://eqtgroup.com/about/current-portfolio/xylocor-therapeutics",
+    "company_website": "https://xylocor.com/"
+  },
+  {
+    "Company": "Zayo",
+    "Sector": "Digital",
+    "Fund": "EQT Infrastructure IV",
+    "Market": "United States",
+    "Entry": "2020",
+    "Link": "https://eqtgroup.com/about/current-portfolio/zayo",
+    "company_website": "https://www.zayo.com/"
+  },
+  {
+    "Company": "Zelestra",
+    "Sector": "Energy & Environmental",
+    "Fund": "EQT Infrastructure V",
+    "Market": "Spain",
+    "Entry": "2021",
+    "Link": "https://eqtgroup.com/about/current-portfolio/zelestra",
+    "company_website": "https://zelestra.energy/"
+  },
+  {
+    "Company": "Zeus",
+    "Sector": "Healthcare",
+    "Fund": "EQT X",
+    "Market": "United States",
+    "Entry": "2024",
+    "Link": "https://eqtgroup.com/about/current-portfolio/zeus",
+    "company_website": "https://www.zeusinc.com/"
+  },
+  {
+    "Company": "Zooplus",
+    "Sector": "Technology",
+    "Fund": "EQT IX",
+    "Market": "Germany",
+    "Entry": "-",
+    "Link": "https://eqtgroup.com/about/current-portfolio/zooplus"
+  }
+]
