@@ -1,0 +1,297 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  Boilerplate Application with CloudFront + S3 + API Gateway + Lambda
+
+Parameters:
+  CognitoUserPoolArn:
+    Type: String
+    Description: ARN of your existing Cognito User Pool
+
+  KnowledgebaseId:
+    Type: String
+    Description: The ID of the knowledgebase to use
+
+  ResearchRounds:
+    Type: String
+    Description: Number of research rounds to use for the deep research
+    Default: "2"
+
+Globals:
+  Function:
+    Timeout: 600
+    MemorySize: 512
+    Runtime: python3.11
+
+Resources:
+  #############################
+  # Frontend Hosting Resources
+  #############################
+  FrontendBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      AccessControl: Private
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - ServerSideEncryptionByDefault:
+              SSEAlgorithm: AES256
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+      VersioningConfiguration:
+        Status: Enabled
+
+  CloudFrontOriginAccessControl:
+    Type: AWS::CloudFront::OriginAccessControl
+    Properties:
+      OriginAccessControlConfig:
+        Description: Access control for frontend bucket
+        Name: !Sub "${AWS::StackName}-frontend-oac"
+        OriginAccessControlOriginType: s3
+        SigningBehavior: always
+        SigningProtocol: sigv4
+
+  FrontendBucketPolicy:
+    Type: AWS::S3::BucketPolicy
+    DependsOn: CloudFrontDistribution
+    Properties:
+      Bucket: !Ref FrontendBucket
+      PolicyDocument:
+        Statement:
+          - Action:
+              - s3:GetObject
+            Effect: Allow
+            Resource: !Sub ${FrontendBucket.Arn}/*
+            Principal:
+              Service: cloudfront.amazonaws.com
+            Condition:
+              StringEquals:
+                AWS:SourceArn: !Sub arn:aws:cloudfront::${AWS::AccountId}:distribution/${CloudFrontDistribution}
+
+  CloudFrontDistribution:
+    Type: AWS::CloudFront::Distribution
+    Properties:
+      DistributionConfig:
+        DefaultCacheBehavior:
+          AllowedMethods:
+            - GET
+            - HEAD
+            - OPTIONS
+          CachedMethods:
+            - GET
+            - HEAD
+            - OPTIONS
+          Compress: true
+          DefaultTTL: 120
+          MaxTTL: 31536000
+          MinTTL: 0
+          ViewerProtocolPolicy: redirect-to-https
+          ForwardedValues:
+            Cookies:
+              Forward: none
+            QueryString: false
+          TargetOriginId: S3Origin
+        DefaultRootObject: index.html
+        Enabled: true
+        HttpVersion: http2
+        PriceClass: PriceClass_100
+        Origins:
+          - Id: S3Origin
+            DomainName: !GetAtt FrontendBucket.RegionalDomainName
+            S3OriginConfig:
+              OriginAccessIdentity: ""
+            OriginAccessControlId: !GetAtt CloudFrontOriginAccessControl.Id
+        # SPA routing - redirect all 404s to index.html
+        CustomErrorResponses:
+          - ErrorCode: 403
+            ResponseCode: 200
+            ResponsePagePath: /index.html
+            ErrorCachingMinTTL: 10
+          - ErrorCode: 404
+            ResponseCode: 200
+            ResponsePagePath: /index.html
+            ErrorCachingMinTTL: 10
+        IPV6Enabled: true
+        ViewerCertificate:
+          CloudFrontDefaultCertificate: true
+
+  #############################
+  # Backend API Resources
+  #############################
+  # DynamoDB Table for Chat Sessions
+  ChatMessagesTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: eqt-chat-messages
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: sessionId
+          AttributeType: S
+        - AttributeName: timestamp
+          AttributeType: S
+      KeySchema:
+        - AttributeName: sessionId
+          KeyType: HASH
+        - AttributeName: timestamp
+          KeyType: RANGE
+      TimeToLiveSpecification:
+        AttributeName: ttl
+        Enabled: true
+
+  # DynamoDB Table for Research Jobs
+  JobsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: eqt-jobs
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: jobId
+          AttributeType: S
+      KeySchema:
+        - AttributeName: jobId
+          KeyType: HASH
+      TimeToLiveSpecification:
+        AttributeName: ttl
+        Enabled: true
+
+  # Main API Lambda function
+  ApiLambda:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: eqt-api
+      CodeUri: ./lambda/
+      Handler: api.lambda_handler
+      Runtime: python3.11
+      Architectures:
+        - x86_64
+      Policies:
+        - AWSLambdaBasicExecutionRole
+        - DynamoDBCrudPolicy:
+            TableName: !Ref ChatMessagesTable
+        - DynamoDBCrudPolicy:
+            TableName: !Ref JobsTable
+        - Statement:
+            - Effect: Allow
+              Action:
+                - lambda:InvokeFunction
+              Resource: !GetAtt ResearchProcessorLambda.Arn
+      Events:
+        # Protected endpoints that require Cognito auth
+        AuthenticatedApiEvent:
+          Type: Api
+          Properties:
+            Path: /api/auth/{proxy+}
+            Method: ANY
+            RestApiId: !Ref ApiGateway
+
+        # Public endpoint
+        PublicApiEvent:
+          Type: Api
+          Properties:
+            Path: /api/public/{proxy+}
+            Method: ANY
+            RestApiId: !Ref ApiGateway
+            Auth:
+              Authorizer: NONE
+
+        # Research endpoints are now handled by the /api/auth/{proxy+} pattern
+      Environment:
+        Variables:
+          POWERTOOLS_SERVICE_NAME: eqt-chat-api
+          POWERTOOLS_LOG_LEVEL: INFO
+          STAGE: Prod
+          REGION: !Ref AWS::Region
+          MESSAGES_TABLE_NAME: !Ref ChatMessagesTable
+          JOBS_TABLE_NAME: !Ref JobsTable
+          KB_ID: !Ref KnowledgebaseId
+          RESEARCH_PROCESSOR_LAMBDA: !Ref ResearchProcessorLambda
+
+  # Research Processor Lambda function
+  ResearchProcessorLambda:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: eqt-research-processor
+      CodeUri: ./lambda/
+      Handler: research_processor.lambda_handler
+      Runtime: python3.11
+      Architectures:
+        - x86_64
+      Timeout: 600 # 10 minutes for longer processing
+      MemorySize: 512 # More memory for complex processing
+      Policies:
+        - AWSLambdaBasicExecutionRole
+        - DynamoDBCrudPolicy:
+            TableName: !Ref JobsTable
+        - Statement:
+            - Effect: Allow
+              Action:
+                - bedrock:InvokeModel
+                - bedrock:Converse
+                - bedrock-agent-runtime:Retrieve
+              Resource: "*"
+      Environment:
+        Variables:
+          POWERTOOLS_SERVICE_NAME: eqt-research-processor
+          POWERTOOLS_LOG_LEVEL: INFO
+          STAGE: Prod
+          REGION: !Ref AWS::Region
+          JOBS_TABLE_NAME: !Ref JobsTable
+          RESEARCH_ROUNDS: !Ref ResearchRounds
+          TAVILY_API_KEY: "{{resolve:ssm:/3p/keys/tavily}}"
+
+  ApiGateway:
+    Type: AWS::Serverless::Api
+    Properties:
+      StageName: Prod
+      Cors:
+        AllowMethods: "'GET,POST,PUT,DELETE,OPTIONS'"
+        AllowHeaders: "'Content-Type,Authorization,X-Amz-Date,X-Api-Key'"
+        AllowOrigin: "'*'"
+        MaxAge: "'600'"
+      EndpointConfiguration: REGIONAL
+      Auth:
+        Authorizers:
+          CognitoAuthorizer:
+            UserPoolArn: !Ref CognitoUserPoolArn
+        DefaultAuthorizer: CognitoAuthorizer
+        AddDefaultAuthorizerToCorsPreflight: false
+      GatewayResponses:
+        DEFAULT_4XX:
+          ResponseParameters:
+            Headers:
+              Access-Control-Allow-Origin: "'*'"
+              Access-Control-Allow-Methods: "'GET,POST,PUT,DELETE,OPTIONS'"
+              Access-Control-Allow-Headers: "'Content-Type,Authorization,X-Amz-Date,X-Api-Key,X-Amz-Security-Token'"
+        DEFAULT_5XX:
+          ResponseParameters:
+            Headers:
+              Access-Control-Allow-Origin: "'*'"
+              Access-Control-Allow-Methods: "'GET,POST,PUT,DELETE,OPTIONS'"
+              Access-Control-Allow-Headers: "'Content-Type,Authorization,X-Amz-Date,X-Api-Key,X-Amz-Security-Token'"
+
+Outputs:
+  CloudFrontUrl:
+    Description: URL for the CloudFront distribution
+    Value: !Sub "https://${CloudFrontDistribution.DomainName}"
+
+  CloudFrontDistributionId:
+    Description: CloudFront distribution ID
+    Value: !Ref CloudFrontDistribution
+
+  FrontendBucketName:
+    Description: S3 bucket for website hosting
+    Value: !Ref FrontendBucket
+
+  ApiGatewayUrl:
+    Description: API Gateway URL
+    Value: !Sub "https://${ApiGateway}.execute-api.${AWS::Region}.amazonaws.com/Prod"
+
+  ApiEndpoint:
+    Description: API Endpoint
+    Value: !Sub "https://${ApiGateway}.execute-api.${AWS::Region}.amazonaws.com/Prod/api"
+
+  CognitoUserPoolArnUsed:
+    Description: The Cognito User Pool ARN used for authentication
+    Value: !Ref CognitoUserPoolArn
