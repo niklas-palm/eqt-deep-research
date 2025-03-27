@@ -38,7 +38,6 @@ class DynamoDBManager:
 
         # Initialize table reference
         self.jobs_table = self.dynamodb.Table(self.jobs_table_name)
-        logger.info(f"DynamoDB manager initialized with table: {self.jobs_table_name}")
 
     def create_job(
         self, job_id: str, session_id: str, user_id: str, query: str
