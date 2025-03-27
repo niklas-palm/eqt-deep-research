@@ -21,7 +21,7 @@ The research process follows a functional approach with these steps:
 2. **Information Gathering**: Scrapes company websites and EQT portfolio data
 3. **Knowledge Base Query**: Searches the Stanford AI Index report for relevant information
 4. **Analysis Generation**: Processes all gathered information to produce comprehensive answers
-5. **Deep Research** (optional): Performs additional rounds of research to fill knowledge gaps
+5. **Deep Research** (optional): Performs additional rounds of research to fill knowledge gaps using the Tavily Search API
 
 ## Key Components
 
@@ -45,6 +45,7 @@ The research process follows a functional approach with these steps:
 1. **EQT Portfolio Data**: Stored in `assets/eqt_portfolio.json`
 2. **Stanford AI Index Report**: Processed content from the AI Index 2024 report
 3. **Company Websites**: Dynamically scraped during research
+4. **Tavily Search API**: Third-party search API used for enhanced deep research capabilities
 
 ## Getting Started
 
