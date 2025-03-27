@@ -85,6 +85,7 @@ The frontend provides a clean chat interface with:
 4. Python 3.11+
 5. Access to AWS Bedrock Claude models
 6. AWS Systems Manager Parameter Store parameter: `/3p/keys/tavily` containing your Tavily API key
+7. Optional: Bedrock Knowledge Base ID for the Stanford AI Index data (leave empty to disable)
 
 ### Backend Deployment
 

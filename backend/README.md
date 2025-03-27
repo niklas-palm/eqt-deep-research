@@ -63,7 +63,7 @@ The following environment variables are required:
 - `AWS_REGION`: AWS region for services
 - `JOBS_TABLE_NAME`: DynamoDB table name for job tracking
 - `RESEARCH_PROCESSOR_LAMBDA`: Name of the research processor Lambda
-- `KB_ID`: Knowledge base ID for the Stanford AI Index data (optional)
+- `KB_ID`: Knowledge base ID for the Stanford AI Index data (optional, leave empty to disable knowledge base retrieval)
 - `TAVILY_API_KEY`: API key for external research (automatically loaded from SSM parameter `/3p/keys/tavily`)
 - `RESEARCH_ROUNDS`: Number of deep research rounds to perform (default: 1)
 

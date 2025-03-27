@@ -276,9 +276,9 @@ def query_internal_knowledge_base(query: str) -> Optional[str]:
     try:
         # Get knowledge base ID from config
         knowledge_base_id = get_config().get("KB_ID")
-        if not knowledge_base_id:
-            logger.warning(
-                "Knowledge base ID not configured in environment, skipping knowledge retrieval"
+        if not knowledge_base_id or knowledge_base_id.strip() == "":
+            logger.info(
+                "Knowledge base retrieval disabled (no KB_ID configured or empty value)"
             )
             return None
 

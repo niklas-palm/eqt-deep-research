@@ -10,7 +10,8 @@ Parameters:
 
   KnowledgebaseId:
     Type: String
-    Description: The ID of the knowledgebase to use
+    Description: The ID of the knowledgebase to use (leave empty to disable knowledge base retrieval)
+    Default: ""
 
   ResearchRounds:
     Type: String
