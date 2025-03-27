@@ -145,3 +145,4 @@ make test
 1. **EQT Portfolio Data**: Company information from EQT's portfolio
 2. **Stanford AI Index Report**: Processed into a knowledge base
 3. **Company Websites**: Dynamically scraped during research
+4. **Tavily Search API**: Used for deep research capabilities
