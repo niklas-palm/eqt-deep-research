@@ -185,7 +185,6 @@ Resources:
             Path: /api/auth/{proxy+}
             Method: ANY
             RestApiId: !Ref ApiGateway
-
         # Public endpoint
         PublicApiEvent:
           Type: Api
@@ -195,8 +194,6 @@ Resources:
             RestApiId: !Ref ApiGateway
             Auth:
               Authorizer: NONE
-
-        # Research endpoints are now handled by the /api/auth/{proxy+} pattern
       Environment:
         Variables:
           POWERTOOLS_SERVICE_NAME: eqt-chat-api
@@ -239,6 +236,7 @@ Resources:
           REGION: !Ref AWS::Region
           JOBS_TABLE_NAME: !Ref JobsTable
           RESEARCH_ROUNDS: !Ref ResearchRounds
+          KB_ID: !Ref KnowledgebaseId
           TAVILY_API_KEY: "{{resolve:ssm:/3p/keys/tavily}}"
 
   ApiGateway:
