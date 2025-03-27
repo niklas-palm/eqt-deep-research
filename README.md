@@ -61,7 +61,7 @@ The research pipeline follows these steps:
 
 1. Identify which EQT portfolio company is mentioned in the query
 2. Gather information from company websites and EQT portfolio data
-3. Query the Stanford AI Index report knowledge base
+3. Query the Stanford AI Index report knowledge base using query reformulation
 4. Analyze all collected information to generate a response
 5. Optionally perform deep research for more comprehensive answers
 
