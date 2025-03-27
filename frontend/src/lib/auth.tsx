@@ -1,4 +1,4 @@
-import { ReactNode, createContext, useContext, useEffect } from 'react';
+import { ReactNode, createContext, useContext } from 'react';
 import { useAuth as useOidcAuth, AuthProvider as OidcAuthProvider } from 'react-oidc-context';
 import { toast } from 'sonner';
 import { authConfig } from './auth-config';
@@ -45,13 +45,6 @@ const AuthProviderInternal = ({ children }: { children: ReactNode }) => {
     sub: oidcAuth.user.profile.sub,
   } : null;
 
-  // Log authentication status for debugging
-  useEffect(() => {
-    if (oidcAuth.isAuthenticated && user) {
-      console.log('User authenticated');
-    }
-  }, [oidcAuth.isAuthenticated, user]);
-
   /**
    * Login function - redirects to Cognito hosted UI
    */
@@ -80,7 +73,6 @@ const AuthProviderInternal = ({ children }: { children: ReactNode }) => {
         const user = await oidcAuth.signinSilent();
         return user?.id_token || null;
       } catch (error) {
-        console.error('Failed to refresh token:', error);
         return null;
       }
     }

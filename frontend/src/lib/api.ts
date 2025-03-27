@@ -50,8 +50,6 @@ export const useApi = () => {
     authType: 'auth' | 'public' = 'auth'
   ): Promise<T> => {
     try {
-      console.log(`API request to ${endpoint} (${authType})`);
-      
       // Set up headers based on authentication type
       const headers: Record<string, string> = {
         'Content-Type': 'application/json',
@@ -59,17 +57,12 @@ export const useApi = () => {
       };
       
       if (authType === 'auth') {
-        console.log('Getting ID token for authenticated request');
         const token = await getIdToken();
-        console.log('Auth token available:', !!token);
         if (token) headers['Authorization'] = `Bearer ${token}`;
       }
       
       // Make request
       const requestUrl = `${authConfig.apiUrl}${endpoint}`;
-      console.log(`Making fetch request to: ${requestUrl}`);
-      console.log('Request headers:', headers);
-      console.log('Request options:', { ...options, headers: '...[redacted]' });
       
       const response = await fetch(requestUrl, {
         ...options,
@@ -86,19 +79,14 @@ export const useApi = () => {
       }
       
       const data = await response.json();
-      console.log('API response data:', data);
       return data as T;
     } catch (error) {
-      console.error('API request error:', error);
-      
       // Handle authentication errors
       if (error instanceof ApiError && error.isAuthError) {
-        console.error('Authentication error detected, handling...');
         handleAuthError();
       } 
       // Handle other errors
       else {
-        console.error('Non-auth error:', error instanceof Error ? error.message : 'Unknown error');
         toast.error('Error', {
           description: error instanceof Error ? error.message : 'An unexpected error occurred',
         });
@@ -121,7 +109,6 @@ export const useApi = () => {
   
   // Research API methods
   const createResearch = useCallback((query: string, isDeepResearch: boolean = false) => {
-    console.log(`Creating research with query: "${query}", deep research: ${isDeepResearch}`);
     return apiRequest<{ 
       job_id: string;
       status: string;
@@ -136,7 +123,6 @@ export const useApi = () => {
   }, [apiRequest]);
   
   const getResearchStatus = useCallback((jobId: string) => {
-    console.log(`API: Getting research status for job ID: ${jobId}`);
     return apiRequest<{
       jobId: string;
       status: string;

@@ -60,7 +60,6 @@ export const authConfig: AuthConfig = {
   },
   // Handle errors like expired tokens
   onSigninError: (error) => {
-    console.error("Signin error:", error);
     // If token is expired, trigger silent renew
     if (error.message.includes("expired")) {
       window.location.reload(); // Reload as a simple fix

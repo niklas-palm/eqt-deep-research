@@ -8,7 +8,7 @@ import remarkGfm from 'remark-gfm';
 import rehypeRaw from 'rehype-raw';
 
 export default function Home() {
-  const { isAuthenticated, user } = useAuth();
+  const { isAuthenticated } = useAuth();
   const { createResearch, getResearchStatus } = useApi();
   const [query, setQuery] = useState('');
   const [isLoading, setIsLoading] = useState(false);
@@ -18,15 +18,6 @@ export default function Home() {
   const [pollingInterval, setPollingInterval] = useState<number | null>(null);
   const [isDeepResearch, setIsDeepResearch] = useState(false); // Toggle for deep research
   
-  // Log authentication status on component mount
-  useEffect(() => {
-    console.log('Home component - auth status:', { 
-      isAuthenticated, 
-      user: user ? 'User present' : 'No user',
-      userId: user?.sub
-    });
-  }, [isAuthenticated, user]);
-  
   // Create a flag to identify hot module reloads
   // When the module reloads, this value will start as false again
   const didCleanupForHotReload = useRef(false);
@@ -35,8 +26,6 @@ export default function Home() {
   useEffect(() => {
     // Check for existing active job that needs to continue polling
     if (activeJobId && !didCleanupForHotReload.current) {
-      console.log(`HMR detected, restarting polling for job: ${activeJobId}`);
-      
       // Update the job ID ref to match the active job ID
       jobIdRef.current = activeJobId;
       
@@ -48,7 +37,6 @@ export default function Home() {
       // Start a new interval for the active job
       const interval = setInterval(() => {
         if (jobIdRef.current) {
-          console.log(`Polling job after HMR: ${jobIdRef.current}`);
           pollJobStatus(jobIdRef.current);
         }
       }, 2000);
@@ -68,14 +56,12 @@ export default function Home() {
     
     // Cleanup function for component unmount or before next effect run
     return () => {
-      console.log("Component cleanup - HMR or unmount");
       // Only do actual cleanup for real unmount, not for hot reloads
       // In development mode, assume unmount is due to hot reload
       // In a Vite app, we should use import.meta.env instead of process.env
       if (import.meta.env.MODE !== 'development') {
         const currentInterval = intervalIdRef.current;
         if (currentInterval) {
-          console.log("Cleaning up interval on actual unmount");
           clearInterval(currentInterval);
           intervalIdRef.current = null;
         }
@@ -88,7 +74,6 @@ export default function Home() {
     
     // Check authentication first
     if (!isAuthenticated) {
-      console.error('User not authenticated! Cannot submit research request.');
       toast.error('Authentication Required', {
         description: 'Please sign in to use the research feature.'
       });
@@ -109,11 +94,9 @@ export default function Home() {
     
     // Then clear the actual intervals
     if (currentStateInterval) {
-      console.log("Cleaning up previous polling interval from state");
       clearInterval(currentStateInterval);
     }
     if (currentRefInterval) {
-      console.log("Cleaning up previous polling interval from ref");
       clearInterval(currentRefInterval);
     }
     
@@ -125,12 +108,9 @@ export default function Home() {
       const response = await createResearch(query.trim(), isDeepResearch);
       
       if (response.job_id) {
-        
         // First set the job ID in state
         setActiveJobId(response.job_id);
         setStatus('Starting analysis...');
-        
-        console.log(`Starting polling for job: ${response.job_id}`);
         
         // Store the job ID in ref for future use in intervals
         jobIdRef.current = response.job_id;
@@ -148,10 +128,8 @@ export default function Home() {
         const interval = setInterval(() => {
           // Use the job ID from ref to avoid closure issues
           if (jobIdRef.current) {
-            console.log(`Polling job from interval: ${jobIdRef.current}`);
             pollJobStatus(jobIdRef.current);
           } else {
-            console.log('No active job ID in ref - stopping polling');
             clearInterval(interval);
           }
         }, 2000);
@@ -167,7 +145,6 @@ export default function Home() {
         setIsLoading(false);
       }
     } catch (error) {
-      console.error('Research query failed:', error);
       toast.error('Research Error', {
         description: 'Failed to process your request. Please try again.'
       });
@@ -183,12 +160,9 @@ export default function Home() {
   const pollJobStatus = async (jobId: string) => {
     // Update the job ID ref with the latest value
     jobIdRef.current = jobId;
-    console.log(`Attempting to poll job status for ${jobId}`);
     
     // Verify authentication before polling
     if (!isAuthenticated) {
-      console.error('Cannot poll job status: User is not authenticated!');
-      
       // Clear polling since it won't work without auth
       const currentStateInterval = pollingInterval;
       const currentRefInterval = intervalIdRef.current;
@@ -213,14 +187,7 @@ export default function Home() {
     }
     
     try {
-      console.log(`Calling getResearchStatus for job ${jobId}`);
       const status = await getResearchStatus(jobId);
-      
-      // Debug logging
-      console.log("Job status response:", status);
-      console.log("Status field:", status.status);
-      console.log("Has result:", !!status.result);
-      console.log("Current interval:", pollingInterval !== null ? "active" : "none");
       
       // Update status message
       if (status.message) {
@@ -234,8 +201,6 @@ export default function Home() {
       
       // Always clear polling interval first if job is completed or failed
       if ((isCompleted && status.result) || isFailed) {
-        console.log(`Job ${isCompleted ? 'completed' : 'failed'}! Stopping polling.`);
-        
         // Get references to current intervals to avoid timing issues
         const currentIntervalRef = intervalIdRef.current;
         const currentIntervalState = pollingInterval;
@@ -246,12 +211,10 @@ export default function Home() {
         
         // Then clear the actual intervals
         if (currentIntervalRef) {
-          console.log("Clearing polling interval from ref");
           clearInterval(currentIntervalRef);
         }
         
         if (currentIntervalState) {
-          console.log("Clearing polling interval from state");
           clearInterval(currentIntervalState);
         }
         
@@ -264,13 +227,11 @@ export default function Home() {
           // Job complete
           setResult(status.result);
           setIsLoading(false);
-          console.log('Job completed successfully - clearing job ID and stopping polling');
         } else if (isFailed) {
           // Job failed
           setStatus('Research failed');
           setResult(`Error: ${status.error || 'Something went wrong with your research request.'}`);
           setIsLoading(false);
-          console.log('Job failed - clearing job ID and stopping polling');
           
           toast.error('Research Error', {
             description: status.error || 'Something went wrong with your research request.'
@@ -278,7 +239,6 @@ export default function Home() {
         }
       }
     } catch (error) {
-      console.error('Error polling job status:', error);
       // Don't clear the polling interval on errors - it might be a temporary network issue
       // Just log the error and let the next polling interval try again
       
@@ -288,12 +248,26 @@ export default function Home() {
   };
   
   const startNewQuery = () => {
+    // Stop any existing polling intervals
+    if (intervalIdRef.current) {
+      clearInterval(intervalIdRef.current);
+      intervalIdRef.current = null;
+    }
+    if (pollingInterval) {
+      clearInterval(pollingInterval);
+      setPollingInterval(null);
+    }
+    
+    // Reset all state
     setQuery('');
     setResult('');
     setStatus('');
     setIsLoading(false);
     setActiveJobId(null);
     jobIdRef.current = null;
+    
+    // Reset the hot reload tracker to ensure new polling will work
+    didCleanupForHotReload.current = false;
   };
 
   return (
