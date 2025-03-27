@@ -35,10 +35,7 @@ deploy: ## Deploys the artifacts from the previous build
 		--resolve-s3 \
 		--capabilities CAPABILITY_IAM \
 		--region $(REGION) \
-		--parameter-overrides \
-		CognitoUserPoolArn=$(COGNITO_USER_POOL_ARN) \
-		KnowledgebaseId=$(KNOWLEDGEBASE_ID) \
-		ResearchRounds=$(RESEARCH_ROUNDS) \
+		--parameter-overrides "CognitoUserPoolArn=$(COGNITO_USER_POOL_ARN) KnowledgebaseId='$(KNOWLEDGEBASE_ID)' ResearchRounds=$(RESEARCH_ROUNDS)" \
 		--no-fail-on-empty-changeset
 
 delete: ## Deletes the CloudFormation stack
