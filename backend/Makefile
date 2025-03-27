@@ -13,7 +13,7 @@ help:
 export STACKNAME ?= eqt
 export REGION ?= eu-west-1
 export COGNITO_USER_POOL_ARN ?= arn:aws:cognito-idp:eu-west-1:675385716628:userpool/eu-west-1_ZglCV4T4H 
-export KNOWLEDGEBASE_ID ?= MOOFWQ2QDV # Bedrock knowledgebase ID
+export KNOWLEDGEBASE_ID ?= "" # Bedrock knowledgebase ID (empty to disable)
 export RESEARCH_ROUNDS ?= 2
 export STACK_OUTPUTS_FILE := $(shell mktemp -t stack_outputs.XXXXXX.json)
 
