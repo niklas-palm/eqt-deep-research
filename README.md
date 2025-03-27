@@ -145,10 +145,3 @@ make test
 1. **EQT Portfolio Data**: Company information from EQT's portfolio
 2. **Stanford AI Index Report**: Processed into a knowledge base
 3. **Company Websites**: Dynamically scraped during research
-
-## Future Improvements
-
-- Enhanced user session persistence for chat history
-- More comprehensive testing infrastructure
-- Optimization of content retrieval and caching
-- Integration with additional data sources
