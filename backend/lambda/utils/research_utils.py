@@ -421,11 +421,12 @@ def analyze_company_info(
         else:
             logger.info("No knowledge base data available for inclusion in analysis")
 
-        # Generate prompt with all available information
-        web_content_prompt = get_prompt(Prompts.WEB_SUMMARY, **prompt_args)
-
-        # Select model size based on deep research flag
-        model_size = ModelSize.LARGE
+        model_size = ModelSize.LARGE if deep_research else ModelSize.MEDIUM
+        web_content_prompt = (
+            get_prompt(Prompts.WEB_SUMMARY_SHORT, **prompt_args)
+            if deep_research
+            else get_prompt(Prompts.WEB_SUMMARY, **prompt_args)
+        )
 
         message = (
             "Generating comprehensive in-depth analysis"
@@ -436,6 +437,7 @@ def analyze_company_info(
 
         # Generate and return the analysis
         response = get_bedrock_response(web_content_prompt, model_size=model_size)
+
         if not response:
             logger.error("Failed to get response from Bedrock AI model")
             return None
