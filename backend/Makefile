@@ -76,30 +76,30 @@ logs-filter: ## Filter logs for errors and warnings
 
 upload-frontend: ## Upload frontend build to S3 bucket
 	@echo "Fetching CloudFormation outputs..."
-	aws cloudformation describe-stacks \
+	@aws cloudformation describe-stacks \
 		--stack-name $(STACKNAME) \
 		--region $(REGION) \
 		--query "Stacks[0].Outputs" \
 		--output json > $(STACK_OUTPUTS_FILE)
 
-	@echo "Getting S3 bucket name..."
-	export BUCKET_NAME=$$(jq -r '.[] | select(.OutputKey=="FrontendBucketName") | .OutputValue' $(STACK_OUTPUTS_FILE))
-	export DISTRIBUTION_ID=$$(jq -r '.[] | select(.OutputKey=="CloudFrontDistributionId") | .OutputValue' $(STACK_OUTPUTS_FILE))
-
-	@echo "Uploading to S3 bucket: $$BUCKET_NAME"
-	aws s3 sync ../frontend/dist/ s3://$$BUCKET_NAME/ --delete
-
-	@echo "Invalidating CloudFront cache: $$DISTRIBUTION_ID"
-	aws cloudfront create-invalidation --distribution-id $$DISTRIBUTION_ID --paths "/*"
-
-	@echo "Frontend deployment complete"
-	@echo "CloudFront URL: $$(jq -r '.[] | select(.OutputKey=="CloudFrontUrl") | .OutputValue' $(STACK_OUTPUTS_FILE))"
+	@echo "Processing frontend deployment..."
+	@BUCKET_NAME=$$(jq -r '.[] | select(.OutputKey=="FrontendBucketName") | .OutputValue' $(STACK_OUTPUTS_FILE)) && \
+	DISTRIBUTION_ID=$$(jq -r '.[] | select(.OutputKey=="CloudFrontDistributionId") | .OutputValue' $(STACK_OUTPUTS_FILE)) && \
+	CLOUDFRONT_URL=$$(jq -r '.[] | select(.OutputKey=="CloudFrontUrl") | .OutputValue' $(STACK_OUTPUTS_FILE)) && \
+	echo "S3 bucket name: $$BUCKET_NAME" && \
+	echo "CloudFront distribution ID: $$DISTRIBUTION_ID" && \
+	echo "Uploading to S3 bucket: $$BUCKET_NAME" && \
+	aws s3 sync ../frontend/dist/ s3://$$BUCKET_NAME/ --delete && \
+	echo "Invalidating CloudFront cache: $$DISTRIBUTION_ID" && \
+	aws cloudfront create-invalidation --distribution-id $$DISTRIBUTION_ID --paths "/*" && \
+	echo "Frontend deployment complete" && \
+	echo "CloudFront URL: $$CLOUDFRONT_URL"
 	
 	# Clean up temporary file
-	rm $(STACK_OUTPUTS_FILE)
+	@rm $(STACK_OUTPUTS_FILE)
 
 test: ## Run tests
 	@echo "Running tests..."
-	python -m unittest discover tests
+	@python -m unittest discover tests
 
 go: build deploy ## Build and deploys the stack
