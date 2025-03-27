@@ -1,13 +1,13 @@
 # EQT Portfolio Research Backend
 
-This backend service provides AI-powered research and analysis on EQT portfolio companies using data from the Stanford 2024 AI Index Report.
+This backend service provides AI-powered research and analysis on EQT portfolio companies using data from the Stanford 2024 AI Index Report and optionally the web.
 
 ## Architecture Overview
 
 The backend is built as an AWS Serverless application using AWS Lambda, API Gateway, and DynamoDB with the following components:
 
 1. **API Gateway**: Entry point for all HTTP requests
-2. **Lambda Functions**: 
+2. **Lambda Functions**:
    - `api.py`: Main API handler for user requests
    - `research_processor.py`: Asynchronous research processing
 3. **DynamoDB**: Stores job status and research results
@@ -69,6 +69,7 @@ The following environment variables are required:
 ### Deployment
 
 1. Build the SAM application:
+
    ```
    cd backend
    make build

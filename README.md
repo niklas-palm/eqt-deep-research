@@ -1,6 +1,6 @@
 # EQT Portfolio Research
 
-An AI-powered tool for analyzing EQT portfolio companies using the Stanford 2024 AI Index Report.
+An AI-powered tool for analyzing EQT portfolio companies using the Stanford 2024 AI Index Report and optionally the web.
 
 ## Overview
 
@@ -123,7 +123,7 @@ The frontend provides a clean chat interface with:
 
 ### Running Tests
 
-The backend includes simple tests that use actual AWS Bedrock services:
+The backend includes simple tests:
 
 ```
 cd backend
@@ -134,7 +134,7 @@ make test
 
 ### AI Capabilities
 
-- Uses AWS Bedrock Claude models for natural language understanding and generation
+- Uses AWS Bedrock models for natural language understanding and generation
 - Employs different model sizes based on task complexity:
   - SMALL: Basic questions, fallback responses
   - MEDIUM: Company identification, knowledge gap detection
