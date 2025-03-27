@@ -84,6 +84,7 @@ The frontend provides a clean chat interface with:
 3. Node.js and npm/yarn
 4. Python 3.11+
 5. Access to AWS Bedrock Claude models
+6. AWS Systems Manager Parameter Store parameter: `/3p/keys/tavily` containing your Tavily API key
 
 ### Backend Deployment
 

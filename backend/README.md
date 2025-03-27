@@ -54,6 +54,7 @@ The research process follows a functional approach with these steps:
 - AWS Account with appropriate permissions
 - Python 3.11+
 - AWS SAM CLI
+- AWS Systems Manager Parameter Store parameter: `/3p/keys/tavily` containing your Tavily API key
 
 ### Environment Variables
 
@@ -63,7 +64,7 @@ The following environment variables are required:
 - `JOBS_TABLE_NAME`: DynamoDB table name for job tracking
 - `RESEARCH_PROCESSOR_LAMBDA`: Name of the research processor Lambda
 - `KB_ID`: Knowledge base ID for the Stanford AI Index data (optional)
-- `TAVILY_API_KEY`: API key for external research (optional)
+- `TAVILY_API_KEY`: API key for external research (automatically loaded from SSM parameter `/3p/keys/tavily`)
 - `RESEARCH_ROUNDS`: Number of deep research rounds to perform (default: 1)
 
 ### Deployment
