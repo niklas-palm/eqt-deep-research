@@ -19,9 +19,10 @@ The research process follows a functional approach with these steps:
 
 1. **Company Identification**: Analyzes user queries to determine which EQT portfolio company is being referenced
 2. **Information Gathering**: Scrapes company websites and EQT portfolio data
-3. **Knowledge Base Query**: Searches the Stanford AI Index report for relevant information
+3. **Knowledge Base Query**: Searches the Stanford AI Index report using query reformulation for improved vector search results
+   - Uses LLM to reformulate the original query into multiple optimized search queries to increase search space.
 4. **Analysis Generation**: Processes all gathered information to produce comprehensive answers
-5. **Deep Research** (optional): Performs additional rounds of research to fill knowledge gaps using the Tavily Search API
+5. **Deep Research** (optional): Performs additional rounds of research to fill knowledge gaps using the Tavily Search API for internet search, enriching the analysis.
 
 ## Key Components
 
