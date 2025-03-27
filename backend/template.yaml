@@ -227,7 +227,8 @@ Resources:
               Action:
                 - bedrock:InvokeModel
                 - bedrock:Converse
-                - bedrock-agent-runtime:Retrieve
+                - bedrock:Retrieve
+
               Resource: "*"
       Environment:
         Variables:
