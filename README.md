@@ -79,30 +79,41 @@ The frontend provides a clean chat interface with:
 
 ### Prerequisites
 
+If you have access to AWS environment, you can follow the steps below to deploy the application.
+
 1. AWS CLI installed and configured
 2. AWS SAM CLI installed
 3. Node.js and npm/yarn
 4. Python 3.11+
-5. Access to AWS Bedrock Claude models
-6. AWS Systems Manager Parameter Store parameter: `/3p/keys/tavily` containing your Tavily API key
+5. Access to AWS Bedrock models (in us-west-2 for higher quota)
+   - Claude 3.7 (used for high-complxity tasks)
+   - Amazon Nova Lite (used for medium-complxity tasks)
+   - Amazon Nova micro (used for low-complexity tasks)
+6. AWS Systems Manager Parameter Store parameter containing your [Tavily API key](https://tavily.com/)
 7. Optional: Bedrock Knowledge Base ID for the Stanford AI Index data (leave empty to disable)
 
 ### Backend Deployment
 
+0. Create parameter in parameter store
+
+```bash
+aws ssm put-parameter --name "/3p/keys/tavily" --value "YOUR_TAVILY_API_KEY" --type SecureString
+```
+
 1. Navigate to the backend directory:
 
-   ```
+   ```bash
    cd backend
    ```
 
 2. Build the SAM application:
 
-   ```
+   ```bash
    make build
    ```
 
 3. Deploy to AWS:
-   ```
+   ```bash
    make deploy
    ```
 
@@ -110,24 +121,33 @@ The frontend provides a clean chat interface with:
 
 1. Install dependencies:
 
-   ```
+   ```bash
    cd frontend
    npm install
    ```
 
 2. Run locally:
 
-   ```
+   ```bash
    npm run dev
    ```
 
 3. Access the application at `http://localhost:5173`
 
+4. Build and deploy frontend to live environment
+
+```bash
+cd frontend
+npm run build
+cd ../backend
+make upload-frontend
+```
+
 ### Running Tests
 
 The backend includes simple tests:
 
-```
+```bash
 cd backend
 make test
 ```
