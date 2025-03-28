@@ -4,6 +4,7 @@ Research processor Lambda function for handling asynchronous research jobs
 
 import json
 from typing import Dict, Any
+from aws_lambda_powertools.metrics import MetricUnit, Metrics
 
 # Import local utility modules
 from utils.types import JobStatus
@@ -19,6 +20,9 @@ from utils.research_utils import (
     generate_fallback_response,
     perform_deep_research_rounds,
 )
+
+# Initialize metrics
+metrics = Metrics()
 
 
 class ResearchPipeline:
@@ -86,6 +90,25 @@ class ResearchPipeline:
     def _fail_job(self, error_msg: str) -> None:
         """Mark job as failed with error"""
         logger.error(f"Job failed: {error_msg}")
+        
+        # Record metric for failed research job
+        metrics.add_dimension(name="ResearchType", value="Deep" if self.deep_research else "Standard")
+        
+        # Add an error type dimension based on the error message
+        if "Failed to access portfolio data" in error_msg:
+            error_type = "PortfolioDataAccess"
+        elif "Failed to gather company information" in error_msg:
+            error_type = "CompanyInformationGathering"
+        elif "Failed to analyze company information" in error_msg:
+            error_type = "InformationAnalysis"
+        elif "Research error:" in error_msg:
+            error_type = "UnexpectedError"
+        else:
+            error_type = "OtherFailure"
+        
+        metrics.add_dimension(name="ErrorType", value=error_type)
+        metrics.add_metric(name="ResearchJobFailed", unit=MetricUnit.Count, value=1)
+        
         self.db_manager.update_job_status(
             self.job_id, JobStatus.FAILED, error=error_msg
         )
@@ -172,6 +195,7 @@ class ResearchPipeline:
             return False
 
 
+@metrics.log_metrics  # Add metrics decorator to ensure metrics are flushed
 def lambda_handler(event: Dict[str, Any], context) -> Dict[str, Any]:
     """
     AWS Lambda handler for the research processor

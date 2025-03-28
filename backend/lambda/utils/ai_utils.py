@@ -114,7 +114,7 @@ $query
 - The answer must be markdown formatted
 - The answer will ONLY contain information that is available in the provided data
 - Finish the answer with sources used. Stick with base URLs - no need for individual paths on websites.
-- In the sources, ensure to include the name of the source used in the knowledgebase
+- In the sources, ensure to include the name of the source used in the knowledgebase. Finish knowledgebase sources with a (internal knowledgebase) parenthesis.
 
 """,
         description="Summarises websites given a users query",
@@ -145,7 +145,7 @@ $query
 - The summar must be markdown formatted.
 - The knowledge base data is related to an internal search in reports and analysises, using the users query. These results pertain more to the question, than the company itself.
 - Finish the summary with sources used. Stick with base URLs - no need for individual paths on websites.
-- In the sources, ensure to include the name of the source used in the knowledgebase
+- In the sources, ensure to include the name of the source used in the knowledgebase. Finish knowledgebase sources with a (internal knowledgebase) parenthesis.
 
 """,
         description="Summarises websites given a users query",

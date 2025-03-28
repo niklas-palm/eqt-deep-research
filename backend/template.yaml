@@ -233,12 +233,16 @@ Resources:
                 - bedrock:InvokeModel
                 - bedrock:Converse
                 - bedrock:Retrieve
-
               Resource: "*"
+            - Effect: Allow
+              Action:
+                - cloudwatch:PutMetricData
+              Resource: '*'
       Environment:
         Variables:
           POWERTOOLS_SERVICE_NAME: eqt-research-processor
           POWERTOOLS_LOG_LEVEL: INFO
+          POWERTOOLS_METRICS_NAMESPACE: EQTPortfolio
           STAGE: Prod
           REGION: !Ref AWS::Region
           JOBS_TABLE_NAME: !Ref JobsTable

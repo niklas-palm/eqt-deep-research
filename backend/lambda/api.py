@@ -79,7 +79,6 @@ def get_profile():
 
 
 @app.post("/api/auth/research")
-@metrics.log_metrics  # Add metrics decorator
 def create_research_job():
     """Start an asynchronous portfolio research job"""
     # Extract request parameters
@@ -104,11 +103,8 @@ def create_research_job():
     )
     
     # Record metric for job creation
+    metrics.add_dimension(name="ResearchType", value="Deep" if deep_research else "Standard")
     metrics.add_metric(name="ResearchJobCreated", unit=MetricUnit.Count, value=1)
-    if deep_research:
-        metrics.add_dimension(name="ResearchType", value="Deep")
-    else:
-        metrics.add_dimension(name="ResearchType", value="Standard")
 
     # Create job in DynamoDB
     db_manager = get_db_manager()
@@ -178,7 +174,7 @@ def get_research_status(job_id):
 
 # AWS Lambda handler
 @logger.inject_lambda_context
-@metrics.log_metrics  # Add metrics decorator to lambda handler
+@metrics.log_metrics  # This decorator will automatically flush metrics
 def lambda_handler(event: dict, context: LambdaContext) -> dict:
     """AWS Lambda handler"""
     try:
