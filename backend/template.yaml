@@ -178,6 +178,10 @@ Resources:
               Action:
                 - lambda:InvokeFunction
               Resource: !GetAtt ResearchProcessorLambda.Arn
+            - Effect: Allow
+              Action:
+                - cloudwatch:PutMetricData
+              Resource: '*'
       Events:
         # Protected endpoints that require Cognito auth
         AuthenticatedApiEvent:
@@ -199,6 +203,7 @@ Resources:
         Variables:
           POWERTOOLS_SERVICE_NAME: eqt-chat-api
           POWERTOOLS_LOG_LEVEL: INFO
+          POWERTOOLS_METRICS_NAMESPACE: EQTPortfolio
           STAGE: Prod
           REGION: !Ref AWS::Region
           MESSAGES_TABLE_NAME: !Ref ChatMessagesTable

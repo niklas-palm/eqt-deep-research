@@ -7,6 +7,7 @@ import uuid
 import boto3
 from aws_lambda_powertools.event_handler import APIGatewayRestResolver, CORSConfig
 from aws_lambda_powertools.utilities.typing import LambdaContext
+from aws_lambda_powertools.metrics import MetricUnit, Metrics
 from typing import Dict, Any, Optional
 
 # Import local utility modules
@@ -17,6 +18,9 @@ from utils.config import get_config
 # Initialize API Gateway resolver
 cors_config = CORSConfig(allow_origin="*", max_age=300)
 app = APIGatewayRestResolver(cors=cors_config)
+
+# Initialize metrics
+metrics = Metrics()
 
 
 # Helper function to extract user information
@@ -75,6 +79,7 @@ def get_profile():
 
 
 @app.post("/api/auth/research")
+@metrics.log_metrics  # Add metrics decorator
 def create_research_job():
     """Start an asynchronous portfolio research job"""
     # Extract request parameters
@@ -97,6 +102,13 @@ def create_research_job():
             "userId": user_id,
         },
     )
+    
+    # Record metric for job creation
+    metrics.add_metric(name="ResearchJobCreated", unit=MetricUnit.Count, value=1)
+    if deep_research:
+        metrics.add_dimension(name="ResearchType", value="Deep")
+    else:
+        metrics.add_dimension(name="ResearchType", value="Standard")
 
     # Create job in DynamoDB
     db_manager = get_db_manager()
@@ -166,6 +178,7 @@ def get_research_status(job_id):
 
 # AWS Lambda handler
 @logger.inject_lambda_context
+@metrics.log_metrics  # Add metrics decorator to lambda handler
 def lambda_handler(event: dict, context: LambdaContext) -> dict:
     """AWS Lambda handler"""
     try:
