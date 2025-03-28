@@ -11,6 +11,9 @@ This ensure better handling of graphs and tables, which traditionally are diffic
 - Combines results into a clean markdown document
 - New document then manually uploaded to S3, and indexed in Bedrock Knowledge base for retrieval
 
+> [!NOTE]  
+> To effectively maintain page numbering to simplify references, we could refrain from merging the md files.
+
 ### Knowledgebase config
 
 - Hierarchical chunking
