@@ -24,6 +24,9 @@ The research process follows a functional approach with these steps:
 4. **Analysis Generation**: Processes all gathered information to produce comprehensive answers
 5. **Deep Research** (optional): Performs additional rounds of research to fill knowledge gaps using the Tavily Search API for internet search, enriching the analysis.
 
+> [!NOTE]  
+> Currently, since we're not maintaining the page numbering from the source data in the vector store, the LLM infers and extracts the sources from the retreived data. That means that sources used by the Standford index can be referenced in the response. Note that this is not hallucination.
+
 ## Key Components
 
 ### Core Modules
@@ -84,14 +87,12 @@ The following environment variables are required:
 
 ### Running Tests
 
-The project includes simple tests for key functionality:
+The project includes simple tests for a few key logic functionalities:
 
 1. Run tests (requires AWS credentials):
    ```
    make test
    ```
-
-Note: Tests use actual AWS Bedrock services and require valid AWS credentials with Bedrock access.
 
 ## API Endpoints
 
